@@ -1,6 +1,7 @@
 # executables that should be on the PATH or specified here
 MB=mb
 PHYML=phyml
+CODONML=codeml
 
 # various directories within project
 SCRIPT=script
