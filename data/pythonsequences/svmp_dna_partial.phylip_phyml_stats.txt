@@ -1,0 +1,52 @@
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                                    ---  PhyML v3.0_360-500M  ---                                             
+                            http://www.atgc-montpellier.fr/phyml                                          
+                         Copyright CNRS - Universite Montpellier II                                 
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+. Sequence filename: 			svmp_dna_partial.phylip
+
+. Data set: 				#1
+
+. Tree topology search : 		Best of NNIs and SPRs
+
+. Initial tree: 			user tree (data/pythonsequences//svmp_dna_partial.dnd)
+
+. Model of nucleotides substitution: 	HKY85
+
+. Number of taxa: 			57
+
+. Log-likelihood: 			-62404.02278
+
+. Unconstrained likelihood: 		-13716.91428
+
+. Parsimony: 				16113
+
+. Tree size: 				15.41440
+
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		1.376
+
+. Transition/transversion ratio: 	2.073
+
+. Nucleotides frequencies:
+
+  - f(A)= 0.30288
+  - f(C)= 0.20263
+  - f(G)= 0.23883
+  - f(T)= 0.25565
+
+. Time used 0h26m45s
+
+
+. 1605 seconds
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citation:
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

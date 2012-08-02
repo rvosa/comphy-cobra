@@ -1,0 +1,52 @@
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                                    ---  PhyML v3.0_360-500M  ---                                             
+                            http://www.atgc-montpellier.fr/phyml                                          
+                         Copyright CNRS - Universite Montpellier II                                 
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+. Sequence filename: 			lectin_dna_partial.phylip
+
+. Data set: 				#1
+
+. Tree topology search : 		Best of NNIs and SPRs
+
+. Initial tree: 			user tree (data/pythonsequences//lectin_dna_partial.dnd)
+
+. Model of nucleotides substitution: 	HKY85
+
+. Number of taxa: 			47
+
+. Log-likelihood: 			-15823.44632
+
+. Unconstrained likelihood: 		-2874.84791
+
+. Parsimony: 				4176
+
+. Tree size: 				14.86930
+
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		1.138
+
+. Transition/transversion ratio: 	2.130
+
+. Nucleotides frequencies:
+
+  - f(A)= 0.25413
+  - f(C)= 0.24133
+  - f(G)= 0.25646
+  - f(T)= 0.24808
+
+. Time used 0h1m58s
+
+
+. 118 seconds
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citation:
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

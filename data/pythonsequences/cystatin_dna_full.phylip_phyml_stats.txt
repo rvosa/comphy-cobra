@@ -1,0 +1,52 @@
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                                    ---  PhyML v3.0_360-500M  ---                                             
+                            http://www.atgc-montpellier.fr/phyml                                          
+                         Copyright CNRS - Universite Montpellier II                                 
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+. Sequence filename: 			cystatin_dna_full.phylip
+
+. Data set: 				#1
+
+. Tree topology search : 		Best of NNIs and SPRs
+
+. Initial tree: 			user tree (data/pythonsequences//cystatin_dna_full.dnd)
+
+. Model of nucleotides substitution: 	HKY85
+
+. Number of taxa: 			45
+
+. Log-likelihood: 			-8711.39447
+
+. Unconstrained likelihood: 		-2405.02856
+
+. Parsimony: 				2231
+
+. Tree size: 				9.80091
+
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		2.172
+
+. Transition/transversion ratio: 	1.963
+
+. Nucleotides frequencies:
+
+  - f(A)= 0.23864
+  - f(C)= 0.27756
+  - f(G)= 0.28088
+  - f(T)= 0.20292
+
+. Time used 0h1m39s
+
+
+. 99 seconds
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citation:
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo

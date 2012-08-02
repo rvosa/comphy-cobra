@@ -1,0 +1,52 @@
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                                    ---  PhyML v3.0_360-500M  ---                                             
+                            http://www.atgc-montpellier.fr/phyml                                          
+                         Copyright CNRS - Universite Montpellier II                                 
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+. Sequence filename: 			ngf_dna_full.phylip
+
+. Data set: 				#1
+
+. Tree topology search : 		Best of NNIs and SPRs
+
+. Initial tree: 			user tree (data/pythonsequences//ngf_dna_full.dnd)
+
+. Model of nucleotides substitution: 	HKY85
+
+. Number of taxa: 			57
+
+. Log-likelihood: 			-14041.02071
+
+. Unconstrained likelihood: 		-4638.50050
+
+. Parsimony: 				3365
+
+. Tree size: 				9.76958
+
+. Discrete gamma model: 		Yes
+  - Number of categories: 		4
+  - Gamma shape parameter: 		0.922
+
+. Transition/transversion ratio: 	2.516
+
+. Nucleotides frequencies:
+
+  - f(A)= 0.28889
+  - f(C)= 0.24020
+  - f(G)= 0.23849
+  - f(T)= 0.23242
+
+. Time used 0h7m19s
+
+
+. 439 seconds
+
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+ Suggested citation:
+ S. Guindon & O. Gascuel
+ "A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood"
+ Systematic Biology. 2003. 52(5):696-704.
+ oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
