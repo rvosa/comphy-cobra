@@ -26,6 +26,13 @@ PHYMLTREES = $(patsubst %.mb.con.tre,%.phylip_phyml_tree.txt,$(MCMCTREES))
 # phyml trees with collapsed monophyletic taxa
 COLLAPSEDTREES = $(patsubst %.phylip_phyml_tree.txt,%.ctree,$(PHYMLTREES))
 
+# files for the paml analysis
+PAMLSEQS  = $(patsubst %.ctree,%.pamlseq,$(COLLAPSEDTREES))
+PAMLTREES = $(patsubst %.ctree,%.pamltree,$(COLLAPSEDTREES))
+PAMLCTLS  = $(patsubst %.pamltree,%.pamlctl,$(PAMLTREES))
+PAMLOUTS  = $(patsubst %.pamlctl,%.pamlout,$(PAMLCTLS))
+PAMLRESULT=$(DATA)/pamlresult.txt
+
 # this so that perl includes $(LIB) in search path
 PERL=perl -I$(LIB)
 
@@ -38,6 +45,8 @@ MRBAYESBLOCK=$(DATA)/bayesian/commandblock.mb
 fasta : $(FASTAFILES)
 
 genetrees : $(COLLAPSEDTREES)
+
+paml : $(PAMLRESULT)
 
 # clean up nick's raw fasta files
 $(FASTAFILES) : %.fas : %.raw
@@ -65,3 +74,23 @@ $(PHYMLTREES) : %.phylip_phyml_tree.txt : %.mb.con.tre
 $(COLLAPSEDTREES) : %.ctree : %.phylip_phyml_tree.txt
 	$(PERL) $(SCRIPT)/collapse_monophyletic.pl -i $< -f newick -l phylip \
 		-c $(TAXAMAP) -s ANOLCARO -s OPHIHANN > $@
+
+# generate trees with labeled internal nodes for PAML codeml
+$(PAMLTREES) : %.pamltree : %.ctree
+	$(PERL) $(SCRIPT)/make_paml_tree.pl -c $(TAXAMAP) -i $< > $@
+
+# generate PAML's version of phylip files
+$(PAMLSEQS) : %.pamlseq : %.ctree
+	$(PERL) $(SCRIPT)/make_paml_seqs.pl -i $*.phylip -t $< > $@
+
+# generate paml control files
+$(PAMLCTLS) : %.pamlctl : %.pamltree
+	$(PERL) $(SCRIPT)/make_paml_ctl.pl -t $< -s $*.pamlseq -o $*.pamlout > $@
+
+# run codonml
+$(PAMLOUTS) : %.pamlout : %.pamlctl
+	$(CODONML) $<
+
+# parse codonml output
+$(PAMLRESULT) : $(PAMLSEQS) $(PAMLOUTS)
+	$(PERL) $(SCRIPT)/parse_paml_out.pl $(PAMLOUTS) > $@
