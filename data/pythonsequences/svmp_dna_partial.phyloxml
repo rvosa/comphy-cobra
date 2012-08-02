@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="true">
+    <clade>
+      <clade>
+        <name>A_superbus_111572526</name>
+        <branch_length>0.037462</branch_length>
+        <taxonomy>
+          <code>AUSTSUPE</code>
+          <scientific_name>Austrelaps superbus</scientific_name>
+        </taxonomy>
+      </clade>
+      <clade>
+        <clade>
+          <branch_length>0.029611</branch_length>
+          <clade>
+            <branch_length>0.033113</branch_length>
+            <clade>
+              <name>A_microlep_6007786</name>
+              <branch_length>0.138009</branch_length>
+              <taxonomy>
+                <code>ATRAMICR</code>
+                <scientific_name>Atractaspis microlepidota andersoni</scientific_name>
+              </taxonomy>
+            </clade>
+            <clade>
+              <branch_length>0.013642</branch_length>
+              <clade>
+                <name>oh_1131_ExtractedCDS</name>
+                <branch_length>0.195427</branch_length>
+                <taxonomy>
+                  <code>OPHIHANN</code>
+                  <scientific_name>Ophiophagus hannah</scientific_name>
+                </taxonomy>
+              </clade>
+              <clade>
+                <branch_length>0.024998</branch_length>
+                <clade>
+                  <branch_length>0.045983</branch_length>
+                  <clade>
+                    <name>B_arietans_62547936</name>
+                    <branch_length>0.168798</branch_length>
+                    <taxonomy>
+                      <code>BITIARIE</code>
+                      <scientific_name>Bitis arietans</scientific_name>
+                    </taxonomy>
+                  </clade>
+                  <clade>
+                    <branch_length>0.023456</branch_length>
+                    <clade>
+                      <branch_length>0.024499</branch_length>
+                      <clade>
+                        <branch_length>0.035481</branch_length>
+                        <clade>
+                          <name>M_lebetina_61104774</name>
+                          <branch_length>0.036460</branch_length>
+                          <taxonomy>
+                            <code>MACRLEBE</code>
+                            <scientific_name>Macrovipera lebetina</scientific_name>
+                          </taxonomy>
+                        </clade>
+                        <clade>
+                          <name>E_ocellatus_83523625</name>
+                          <branch_length>0.053486</branch_length>
+                          <taxonomy>
+                            <code>ECHIOCEL</code>
+                            <scientific_name>Echis ocellatus</scientific_name>
+                          </taxonomy>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <branch_length>0.043253</branch_length>
+                        <clade>
+                          <name>P_flavoviridis_14325766</name>
+                          <branch_length>0.042277</branch_length>
+                          <taxonomy>
+                            <code>TRIMFLAV</code>
+                            <scientific_name>Trimeresurus flavoviridis</scientific_name>
+                          </taxonomy>
+                        </clade>
+                        <clade>
+                          <name>C_durissus_78364923</name>
+                          <branch_length>0.053588</branch_length>
+                          <taxonomy>
+                            <code>CROTDURI</code>
+                            <scientific_name>Crotalus durissus terrificus</scientific_name>
+                          </taxonomy>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.026622</branch_length>
+                      <clade>
+                        <branch_length>0.017876</branch_length>
+                        <clade>
+                          <branch_length>0.013614</branch_length>
+                          <clade>
+                            <name>C_atrox_144905067</name>
+                            <branch_length>0.106720</branch_length>
+                            <taxonomy>
+                              <code>CROTATRO</code>
+                              <scientific_name>Crotalus atrox</scientific_name>
+                            </taxonomy>
+                          </clade>
+                          <clade>
+                            <branch_length>0.018022</branch_length>
+                            <clade>
+                              <name>A_contortrix_603214</name>
+                              <branch_length>0.053357</branch_length>
+                              <taxonomy>
+                                <code>AGKICONT</code>
+                                <scientific_name>Agkistrodon contortrix</scientific_name>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>S_catenatus_109254959</name>
+                              <branch_length>0.076964</branch_length>
+                              <taxonomy>
+                                <code>SISTCATE</code>
+                                <scientific_name>Sistrurus catenatus edwardsi</scientific_name>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>0.029595</branch_length>
+                          <clade>
+                            <branch_length>0.009038</branch_length>
+                            <clade>
+                              <name>P_elegans_15991221</name>
+                              <branch_length>0.089757</branch_length>
+                              <taxonomy>
+                                <code>PROTELEG</code>
+                                <scientific_name>Protobothrops elegans</scientific_name>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <branch_length>0.031411</branch_length>
+                              <clade>
+                                <name>D_acutus_5360902</name>
+                                <branch_length>0.091563</branch_length>
+                                <taxonomy>
+                                  <code>DEINACUT</code>
+                                  <scientific_name>Deinagkistrodon acutus</scientific_name>
+                                </taxonomy>
+                              </clade>
+                              <clade>
+                                <branch_length>0.022918</branch_length>
+                                <clade>
+                                  <name>A_contortix_603216</name>
+                                  <branch_length>0.033259</branch_length>
+                                  <taxonomy>
+                                    <code>AGKICONT</code>
+                                    <scientific_name>Agkistrodon contortrix</scientific_name>
+                                  </taxonomy>
+                                </clade>
+                                <clade>
+                                  <name>C_durissus_76365439</name>
+                                  <branch_length>0.061770</branch_length>
+                                  <taxonomy>
+                                    <code>CROTDURD</code>
+                                    <scientific_name>Crotalus durissus durissus</scientific_name>
+                                  </taxonomy>
+                                </clade>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.007809</branch_length>
+                            <clade>
+                              <name>B_gabonica_38374139</name>
+                              <branch_length>0.215384</branch_length>
+                              <taxonomy>
+                                <code>BITIGABO</code>
+                                <scientific_name>Bitis gabonica</scientific_name>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <branch_length>0.013888</branch_length>
+                              <clade>
+                                <name>C_molossus_20530312</name>
+                                <branch_length>0.119733</branch_length>
+                                <taxonomy>
+                                  <code>CROTMOLO</code>
+                                  <scientific_name>Crotalus molossus molossus</scientific_name>
+                                </taxonomy>
+                              </clade>
+                              <clade>
+                                <branch_length>0.045559</branch_length>
+                                <clade>
+                                  <name>B_asper_82466486</name>
+                                  <branch_length>0.024798</branch_length>
+                                  <taxonomy>
+                                    <code>BOTHASPE</code>
+                                    <scientific_name>Bothrops asper</scientific_name>
+                                  </taxonomy>
+                                </clade>
+                                <clade>
+                                  <name>B_insularis_52426578</name>
+                                  <branch_length>0.025493</branch_length>
+                                  <taxonomy>
+                                    <code>BOTHINSU</code>
+                                    <scientific_name>Bothrops insularis</scientific_name>
+                                  </taxonomy>
+                                </clade>
+                              </clade>
+                            </clade>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <branch_length>0.012059</branch_length>
+                        <clade>
+                          <branch_length>0.017670</branch_length>
+                          <clade>
+                            <branch_length>0.022850</branch_length>
+                            <clade>
+                              <name>B_jararaca_31742524</name>
+                              <branch_length>0.092003</branch_length>
+                              <taxonomy>
+                                <code>BOTHJARA</code>
+                                <scientific_name>Bothrops jararaca</scientific_name>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>E_ocellatus_83523643</name>
+                              <branch_length>0.100301</branch_length>
+                              <taxonomy>
+                                <code>ECHIOCEL</code>
+                                <scientific_name>Echis ocellatus</scientific_name>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.041647</branch_length>
+                            <clade>
+                              <name>D_russelii_71727516</name>
+                              <branch_length>0.067342</branch_length>
+                              <taxonomy>
+                                <code>DABORUSS</code>
+                                <scientific_name>Daboia russellii</scientific_name>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>E_ocellatus_83523637</name>
+                              <branch_length>0.090485</branch_length>
+                              <taxonomy>
+                                <code>ECHIOCEL</code>
+                                <scientific_name>Echis ocellatus</scientific_name>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>0.056676</branch_length>
+                          <clade>
+                            <name>E_ocellatus_83523645</name>
+                            <branch_length>0.095866</branch_length>
+                            <taxonomy>
+                              <code>ECHIOCEL</code>
+                              <scientific_name>Echis ocellatus</scientific_name>
+                            </taxonomy>
+                          </clade>
+                          <clade>
+                            <branch_length>0.030343</branch_length>
+                            <clade>
+                              <name>D_russelii_71727518</name>
+                              <branch_length>0.041739</branch_length>
+                              <taxonomy>
+                                <code>DABORUSS</code>
+                                <scientific_name>Daboia russellii</scientific_name>
+                              </taxonomy>
+                            </clade>
+                            <clade>
+                              <name>M_lebetina_33391733</name>
+                              <branch_length>0.021821</branch_length>
+                              <taxonomy>
+                                <code>MACRLEBE</code>
+                                <scientific_name>Macrovipera lebetina</scientific_name>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.070787</branch_length>
+                  <clade>
+                    <branch_length>0.024733</branch_length>
+                    <clade>
+                      <branch_length>0.043243</branch_length>
+                      <clade>
+                        <name>Oh_gene1_s3444</name>
+                        <branch_length>0.096019</branch_length>
+                        <taxonomy>
+                          <code>OPHIHANN</code>
+                          <scientific_name>Ophiophagus hannah</scientific_name>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <branch_length>0.114636</branch_length>
+                        <clade>
+                          <name>A_carolinensis_327284372</name>
+                          <branch_length>0.152209</branch_length>
+                          <taxonomy>
+                            <code>ANOLCARO</code>
+                            <scientific_name>Anolis carolinensis</scientific_name>
+                          </taxonomy>
+                        </clade>
+                        <clade>
+                          <branch_length>0.180151</branch_length>
+                          <clade>
+                            <branch_length>0.077021</branch_length>
+                            <clade>
+                              <branch_length>0.210452</branch_length>
+                              <clade>
+                                <name>D_rerio_34785401</name>
+                                <branch_length>0.616862</branch_length>
+                                <taxonomy>
+                                  <code>DANIRERI</code>
+                                  <scientific_name>Danio rerio</scientific_name>
+                                </taxonomy>
+                              </clade>
+                              <clade>
+                                <branch_length>0.081220</branch_length>
+                                <clade>
+                                  <name>H_sapiens_54292119</name>
+                                  <branch_length>0.737841</branch_length>
+                                  <taxonomy>
+                                    <code>HOMOSAPI</code>
+                                    <scientific_name>Homo sapiens</scientific_name>
+                                  </taxonomy>
+                                </clade>
+                                <clade>
+                                  <branch_length>0.068132</branch_length>
+                                  <clade>
+                                    <branch_length>0.088882</branch_length>
+                                    <clade>
+                                      <branch_length>0.416673</branch_length>
+                                      <clade>
+                                        <branch_length>0.378731</branch_length>
+                                        <clade>
+                                          <branch_length>0.729083</branch_length>
+                                          <clade>
+                                            <branch_length>0.149023</branch_length>
+                                            <clade>
+                                              <name>H_sapiens_73747888</name>
+                                              <branch_length>0.196427</branch_length>
+                                              <taxonomy>
+                                                <code>HOMOSAPI</code>
+                                                <scientific_name>Homo sapiens</scientific_name>
+                                              </taxonomy>
+                                            </clade>
+                                            <clade>
+                                              <branch_length>0.125457</branch_length>
+                                              <clade>
+                                                <name>P_molurus_comp5787</name>
+                                                <branch_length>0.096567</branch_length>
+                                                <taxonomy>
+                                                  <code>PYTHMOLU</code>
+                                                  <scientific_name>Python molurus</scientific_name>
+                                                </taxonomy>
+                                              </clade>
+                                              <clade>
+                                                <name>A_carolinensis_327261268</name>
+                                                <branch_length>0.110853</branch_length>
+                                                <taxonomy>
+                                                  <code>ANOLCARO</code>
+                                                  <scientific_name>Anolis carolinensis</scientific_name>
+                                                </taxonomy>
+                                              </clade>
+                                            </clade>
+                                          </clade>
+                                          <clade>
+                                            <name>D_rerio_326677166</name>
+                                            <branch_length>0.337967</branch_length>
+                                            <taxonomy>
+                                              <code>DANIRERI</code>
+                                              <scientific_name>Danio rerio</scientific_name>
+                                            </taxonomy>
+                                          </clade>
+                                        </clade>
+                                        <clade>
+                                          <branch_length>0.762213</branch_length>
+                                          <clade>
+                                            <name>A_carolinensis_327286800</name>
+                                            <branch_length>0.099307</branch_length>
+                                            <taxonomy>
+                                              <code>ANOLCARO</code>
+                                              <scientific_name>Anolis carolinensis</scientific_name>
+                                            </taxonomy>
+                                          </clade>
+                                          <clade>
+                                            <branch_length>0.071614</branch_length>
+                                            <clade>
+                                              <name>H_sapiens_73747882</name>
+                                              <branch_length>0.206948</branch_length>
+                                              <taxonomy>
+                                                <code>HOMOSAPI</code>
+                                                <scientific_name>Homo sapiens</scientific_name>
+                                              </taxonomy>
+                                            </clade>
+                                            <clade>
+                                              <branch_length>0.036552</branch_length>
+                                              <clade>
+                                                <name>Oh_gene4_s142</name>
+                                                <branch_length>0.035884</branch_length>
+                                                <taxonomy>
+                                                  <code>OPHIHANN</code>
+                                                  <scientific_name>Ophiophagus hannah</scientific_name>
+                                                </taxonomy>
+                                              </clade>
+                                              <clade>
+                                                <name>P_molurus_comp1832</name>
+                                                <branch_length>0.036218</branch_length>
+                                                <taxonomy>
+                                                  <code>PYTHMOLU</code>
+                                                  <scientific_name>Python molurus</scientific_name>
+                                                </taxonomy>
+                                              </clade>
+                                            </clade>
+                                          </clade>
+                                        </clade>
+                                      </clade>
+                                      <clade>
+                                        <name>H_sapiens_56121814</name>
+                                        <branch_length>1.144838</branch_length>
+                                        <taxonomy>
+                                          <code>HOMOSAPI</code>
+                                          <scientific_name>Homo sapiens</scientific_name>
+                                        </taxonomy>
+                                      </clade>
+                                    </clade>
+                                    <clade>
+                                      <name>H_sapiens_256773263</name>
+                                      <branch_length>0.611931</branch_length>
+                                      <taxonomy>
+                                        <code>HOMOSAPI</code>
+                                        <scientific_name>Homo sapiens</scientific_name>
+                                      </taxonomy>
+                                    </clade>
+                                  </clade>
+                                  <clade>
+                                    <branch_length>0.148500</branch_length>
+                                    <clade>
+                                      <name>A_carolinensis_327277545</name>
+                                      <branch_length>0.443623</branch_length>
+                                      <taxonomy>
+                                        <code>ANOLCARO</code>
+                                        <scientific_name>Anolis carolinensis</scientific_name>
+                                      </taxonomy>
+                                    </clade>
+                                    <clade>
+                                      <branch_length>0.820618</branch_length>
+                                      <clade>
+                                        <name>A_carolinensis_327274757</name>
+                                        <branch_length>0.150196</branch_length>
+                                        <taxonomy>
+                                          <code>ANOLCARO</code>
+                                          <scientific_name>Anolis carolinensis</scientific_name>
+                                        </taxonomy>
+                                      </clade>
+                                      <clade>
+                                        <name>H_sapiens_315434189</name>
+                                        <branch_length>0.133598</branch_length>
+                                        <taxonomy>
+                                          <code>HOMOSAPI</code>
+                                          <scientific_name>Homo sapiens</scientific_name>
+                                        </taxonomy>
+                                      </clade>
+                                    </clade>
+                                  </clade>
+                                </clade>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>H_sapiens_354983502</name>
+                              <branch_length>0.491879</branch_length>
+                              <taxonomy>
+                                <code>HOMOSAPI</code>
+                                <scientific_name>Homo sapiens</scientific_name>
+                              </taxonomy>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>H_sapiens_98985827</name>
+                            <branch_length>0.402697</branch_length>
+                            <taxonomy>
+                              <code>HOMOSAPI</code>
+                              <scientific_name>Homo sapiens</scientific_name>
+                            </taxonomy>
+                          </clade>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.149591</branch_length>
+                      <clade>
+                        <name>O_hannah_124007158</name>
+                        <branch_length>0.003360</branch_length>
+                        <taxonomy>
+                          <code>OPHIHANN</code>
+                          <scientific_name>Ophiophagus hannah</scientific_name>
+                        </taxonomy>
+                      </clade>
+                      <clade>
+                        <name>Oh_gene2_s3444</name>
+                        <branch_length>0.001078</branch_length>
+                        <taxonomy>
+                          <code>OPHIHANN</code>
+                          <scientific_name>Ophiophagus hannah</scientific_name>
+                        </taxonomy>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.121576</branch_length>
+                    <clade>
+                      <name>N_atra_126035682</name>
+                      <branch_length>0.017791</branch_length>
+                      <taxonomy>
+                        <code>NAJAATRA</code>
+                        <scientific_name>Naja atra</scientific_name>
+                      </taxonomy>
+                    </clade>
+                    <clade>
+                      <name>Oh_gene3_s3444</name>
+                      <branch_length>0.019870</branch_length>
+                      <taxonomy>
+                        <code>OPHIHANN</code>
+                        <scientific_name>Ophiophagus hannah</scientific_name>
+                      </taxonomy>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <branch_length>0.000005</branch_length>
+            <clade>
+              <name>oh_1840_ExtractedCDS</name>
+              <branch_length>0.044735</branch_length>
+              <taxonomy>
+                <code>OPHIHANN</code>
+                <scientific_name>Ophiophagus hannah</scientific_name>
+              </taxonomy>
+            </clade>
+            <clade>
+              <name>oh_3768_ExtractedCDS</name>
+              <branch_length>0.069884</branch_length>
+              <taxonomy>
+                <code>OPHIHANN</code>
+                <scientific_name>Ophiophagus hannah</scientific_name>
+              </taxonomy>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>N_scutatus_145982765</name>
+          <branch_length>0.040070</branch_length>
+          <taxonomy>
+            <code>NOTESCUT</code>
+            <scientific_name>Notechis scutatus</scientific_name>
+          </taxonomy>
+        </clade>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>
