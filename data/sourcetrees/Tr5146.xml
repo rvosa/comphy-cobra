@@ -1,0 +1,359 @@
+<nex:nexml xmlns="http://www.nexml.org/2009" version="0.9" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" generator="Bio::Phylo::Project v.0.46_1660" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nex="http://www.nexml.org/2009" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#nl166077" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><meta xsi:type="nex:LiteralMeta" content="rvosa" id="ma166653" datatype="xsd:string" property="dc:creator"/><meta xsi:type="nex:LiteralMeta" content="2012-03-15T16:34:27" id="ma166654" datatype="xsd:date" property="dc:date"/><otus xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:" label="TaxonLabelSet13642" id="Tls13642" about="#Tls13642"><meta xsi:type="nex:LiteralMeta" content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@480b66ec $Rev: 1040 $" id="ma166079" datatype="xsd:string" property="skos:historyNote"/>
+<otu label="Chytriomyces sp" id="Tl79279" about="#Tl79279"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166081"/></otu>
+<otu label="Ciona intestinalis" id="Tl211988" about="#Tl211988"><meta xsi:type="nex:LiteralMeta" content="33665" id="ma166083" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="77817" id="ma166084" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/7719" xsi:type="nex:ResourceMeta" id="ma166085"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2764548" xsi:type="nex:ResourceMeta" id="ma166086"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166087"/></otu>
+<otu label="Coemansia reversa" id="Tl211982" about="#Tl211982"><meta xsi:type="nex:LiteralMeta" content="6629" id="ma166089" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="16069" id="ma166090" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/61392" xsi:type="nex:ResourceMeta" id="ma166091"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5955673" xsi:type="nex:ResourceMeta" id="ma166092"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166093"/></otu>
+<otu label="Cokeromyces recurvatus" id="Tl54238" about="#Tl54238"><meta xsi:type="nex:LiteralMeta" content="6641" id="ma166095" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="16104" id="ma166096" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/90255" xsi:type="nex:ResourceMeta" id="ma166097"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832736" xsi:type="nex:ResourceMeta" id="ma166098"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166099"/></otu>
+<otu label="Conidiobolus coronatus" id="Tl13197" about="#Tl13197"><meta xsi:type="nex:LiteralMeta" content="6822" id="ma166101" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="16548" id="ma166102" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/34488" xsi:type="nex:ResourceMeta" id="ma166103"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3166893" xsi:type="nex:ResourceMeta" id="ma166104"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166105"/></otu>
+<otu label="Conidiobolus lamprauges" id="Tl54220" about="#Tl54220"><meta xsi:type="nex:LiteralMeta" content="6824" id="ma166107" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="16553" id="ma166108" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/90250" xsi:type="nex:ResourceMeta" id="ma166109"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3177343" xsi:type="nex:ResourceMeta" id="ma166110"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166111"/></otu>
+<otu label="Coprinus cinereus" id="Tl13181" about="#Tl13181"><meta xsi:type="nex:LiteralMeta" content="6903" id="ma166113" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="16736" id="ma166114" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Coprinopsis cinerea" id="ma166115" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/5346" xsi:type="nex:ResourceMeta" id="ma166116"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3085536" xsi:type="nex:ResourceMeta" id="ma166117"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166118"/></otu>
+<otu label="Dissophora decumbens" id="Tl212005" about="#Tl212005"><meta xsi:type="nex:LiteralMeta" content="9394" id="ma166120" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="22459" id="ma166121" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101101" xsi:type="nex:ResourceMeta" id="ma166122"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5959607" xsi:type="nex:ResourceMeta" id="ma166123"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166124"/></otu>
+<otu label="Drosophila melanogaster" id="Tl211990" about="#Tl211990"><meta xsi:type="nex:LiteralMeta" content="9608" id="ma166126" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="22965" id="ma166127" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/7227" xsi:type="nex:ResourceMeta" id="ma166128"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2614985" xsi:type="nex:ResourceMeta" id="ma166129"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166130"/></otu>
+<otu label="Ellisomyces anomalus" id="Tl3489" about="#Tl3489"><meta xsi:type="nex:LiteralMeta" content="9937" id="ma166132" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="23775" id="ma166133" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101134" xsi:type="nex:ResourceMeta" id="ma166134"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832788" xsi:type="nex:ResourceMeta" id="ma166135"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166136"/></otu>
+<otu label="Endogone lactiflua" id="Tl79277" about="#Tl79277"><meta xsi:type="nex:LiteralMeta" content="284899" id="ma166138" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="337784" id="ma166139" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/324621" xsi:type="nex:ResourceMeta" id="ma166140"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3118332" xsi:type="nex:ResourceMeta" id="ma166141"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166142"/></otu>
+<otu label="Endogone pisiformis" id="Tl42593" about="#Tl42593"><meta xsi:type="nex:LiteralMeta" content="10028" id="ma166144" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="23986" id="ma166145" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4872" xsi:type="nex:ResourceMeta" id="ma166146"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3871567" xsi:type="nex:ResourceMeta" id="ma166147"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166148"/></otu>
+<otu label="Entomophthora muscae" id="Tl13002" about="#Tl13002"><meta xsi:type="nex:LiteralMeta" content="10119" id="ma166150" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="24185" id="ma166151" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/34485" xsi:type="nex:ResourceMeta" id="ma166152"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3061754" xsi:type="nex:ResourceMeta" id="ma166153"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166154"/></otu>
+<otu label="Fennellomyces linderi" id="Tl211995" about="#Tl211995"><meta xsi:type="nex:LiteralMeta" content="11118" id="ma166156" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="26550" id="ma166157" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101136" xsi:type="nex:ResourceMeta" id="ma166158"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832789" xsi:type="nex:ResourceMeta" id="ma166159"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166160"/></otu>
+<otu label="Furculomyces boomerangus" id="Tl13203" about="#Tl13203"><meta xsi:type="nex:LiteralMeta" content="11533" id="ma166162" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="27528" id="ma166163" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/61424" xsi:type="nex:ResourceMeta" id="ma166164"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832298" xsi:type="nex:ResourceMeta" id="ma166165"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166166"/></otu>
+<otu label="Geosiphon pyriformis" id="Tl42597" about="#Tl42597"><meta xsi:type="nex:LiteralMeta" content="12074" id="ma166168" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="87817" id="ma166169" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/50956" xsi:type="nex:ResourceMeta" id="ma166170"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3348662" xsi:type="nex:ResourceMeta" id="ma166171"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166172"/></otu>
+<otu label="Gigaspora margarita" id="Tl39000" about="#Tl39000"><meta xsi:type="nex:LiteralMeta" content="12148" id="ma166174" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="28843" id="ma166175" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4874" xsi:type="nex:ResourceMeta" id="ma166176"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3194126" xsi:type="nex:ResourceMeta" id="ma166177"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166178"/></otu>
+<otu label="Gilbertella persicaria" id="Tl57146" about="#Tl57146"><meta xsi:type="nex:LiteralMeta" content="12151" id="ma166180" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="28849" id="ma166181" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101096" xsi:type="nex:ResourceMeta" id="ma166182"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832862" xsi:type="nex:ResourceMeta" id="ma166183"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166184"/></otu>
+<otu label="Glomus clarum" id="Tl211986" about="#Tl211986"><meta xsi:type="nex:LiteralMeta" content="12241" id="ma166186" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="29077" id="ma166187" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/94130" xsi:type="nex:ResourceMeta" id="ma166188"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3194213" xsi:type="nex:ResourceMeta" id="ma166189"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166190"/></otu>
+<otu label="Glomus intraradices" id="Tl212012" about="#Tl212012"><meta xsi:type="nex:LiteralMeta" content="12252" id="ma166192" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="29099" id="ma166193" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4876" xsi:type="nex:ResourceMeta" id="ma166194"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3027431" xsi:type="nex:ResourceMeta" id="ma166195"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166196"/></otu>
+<otu label="Glomus mosseae" id="Tl212031" about="#Tl212031"><meta xsi:type="nex:LiteralMeta" content="12257" id="ma166198" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="29111" id="ma166199" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/27381" xsi:type="nex:ResourceMeta" id="ma166200"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3194229" xsi:type="nex:ResourceMeta" id="ma166201"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166202"/></otu>
+<otu label="Gonapodya sp" id="Tl79273" about="#Tl79273"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166204"/></otu>
+<otu label="Mucor hiemalis f hiemalis" id="Tl79274" about="#Tl79274"><meta xsi:type="nex:LiteralMeta" content="18231" id="ma166206" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="42623" id="ma166207" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64493" xsi:type="nex:ResourceMeta" id="ma166208"/><meta xsi:type="nex:LiteralMeta" content="Mucor hiemalis" id="ma166209" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3144089" xsi:type="nex:ResourceMeta" id="ma166210"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166211"/></otu>
+<otu label="Mucor mucedo" id="Tl212032" about="#Tl212032"><meta xsi:type="nex:LiteralMeta" content="18234" id="ma166213" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="42630" id="ma166214" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/29922" xsi:type="nex:ResourceMeta" id="ma166215"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1451272" xsi:type="nex:ResourceMeta" id="ma166216"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166217"/></otu>
+<otu label="Mucor racemosus" id="Tl212049" about="#Tl212049"><meta xsi:type="nex:LiteralMeta" content="18235" id="ma166219" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="42631" id="ma166220" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4841" xsi:type="nex:ResourceMeta" id="ma166221"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1451277" xsi:type="nex:ResourceMeta" id="ma166222"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166223"/></otu>
+<otu label="Mycotypha africana" id="Tl57168" about="#Tl57168"><meta xsi:type="nex:LiteralMeta" content="18449" id="ma166225" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="43071" id="ma166226" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64632" xsi:type="nex:ResourceMeta" id="ma166227"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832895" xsi:type="nex:ResourceMeta" id="ma166228"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166229"/></otu>
+<otu label="Absidia corymbifera" id="Tl48965" about="#Tl48965"><meta xsi:type="nex:LiteralMeta" content="45" id="ma166231" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="82" id="ma166232" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Lichtheimia corymbifera" id="ma166233" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/42458" xsi:type="nex:ResourceMeta" id="ma166234"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832560" xsi:type="nex:ResourceMeta" id="ma166235"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166236"/></otu>
+<otu label="Absidia glauca" id="Tl212016" about="#Tl212016"><meta xsi:type="nex:LiteralMeta" content="46" id="ma166238" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="85" id="ma166239" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4829" xsi:type="nex:ResourceMeta" id="ma166240"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832561" xsi:type="nex:ResourceMeta" id="ma166241"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166242"/></otu>
+<otu label="Actinomucor elegans" id="Tl57164" about="#Tl57164"><meta xsi:type="nex:LiteralMeta" content="370" id="ma166244" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="894" id="ma166245" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64647" xsi:type="nex:ResourceMeta" id="ma166246"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832730" xsi:type="nex:ResourceMeta" id="ma166247"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166248"/></otu>
+<otu label="Basidiobolus ranarum" id="Tl13191" about="#Tl13191"><meta xsi:type="nex:LiteralMeta" content="3203" id="ma166250" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="7730" id="ma166251" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/34480" xsi:type="nex:ResourceMeta" id="ma166252"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3123177" xsi:type="nex:ResourceMeta" id="ma166253"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166254"/></otu>
+<otu label="Blakeslea trispora" id="Tl212038" about="#Tl212038"><meta xsi:type="nex:LiteralMeta" content="3580" id="ma166256" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="8567" id="ma166257" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4850" xsi:type="nex:ResourceMeta" id="ma166258"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5952462" xsi:type="nex:ResourceMeta" id="ma166259"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166260"/></otu>
+<otu label="Caenorhabditis elegans" id="Tl1961" about="#Tl1961"><meta xsi:type="nex:LiteralMeta" content="4376" id="ma166262" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="10528" id="ma166263" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/6239" xsi:type="nex:ResourceMeta" id="ma166264"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:497404" xsi:type="nex:ResourceMeta" id="ma166265"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166266"/></otu>
+<otu label="Candida albicans" id="Tl212006" about="#Tl212006"><meta xsi:type="nex:LiteralMeta" content="4753" id="ma166268" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="11478" id="ma166269" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/5476" xsi:type="nex:ResourceMeta" id="ma166270"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:4773781" xsi:type="nex:ResourceMeta" id="ma166271"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166272"/></otu>
+<otu label="Capniomyces stellatus" id="Tl12998" about="#Tl12998"><meta xsi:type="nex:LiteralMeta" content="4802" id="ma166274" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="11581" id="ma166275" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4885" xsi:type="nex:ResourceMeta" id="ma166276"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832222" xsi:type="nex:ResourceMeta" id="ma166277"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166278"/></otu>
+<otu label="Chaetocladium brefeldii" id="Tl3491" about="#Tl3491"><meta xsi:type="nex:LiteralMeta" content="5577" id="ma166280" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="13510" id="ma166281" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101089" xsi:type="nex:ResourceMeta" id="ma166282"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832459" xsi:type="nex:ResourceMeta" id="ma166283"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166284"/></otu>
+<otu label="Chlamydoabsidia padenii" id="Tl211993" about="#Tl211993"><meta xsi:type="nex:LiteralMeta" content="5849" id="ma166286" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="14174" id="ma166287" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/90267" xsi:type="nex:ResourceMeta" id="ma166288"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832409" xsi:type="nex:ResourceMeta" id="ma166289"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166290"/></otu>
+<otu label="Neurospora crassa" id="Tl212055" about="#Tl212055"><meta xsi:type="nex:LiteralMeta" content="19068" id="ma166292" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="44380" id="ma166293" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/5141" xsi:type="nex:ResourceMeta" id="ma166294"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3153358" xsi:type="nex:ResourceMeta" id="ma166295"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166296"/></otu>
+<otu label="Parasitella parasitica" id="Tl212018" about="#Tl212018"><meta xsi:type="nex:LiteralMeta" content="20500" id="ma166298" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="47688" id="ma166299" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/35722" xsi:type="nex:ResourceMeta" id="ma166300"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832621" xsi:type="nex:ResourceMeta" id="ma166301"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166302"/></otu>
+<otu label="Phycomyces blakesleeanus" id="Tl212060" about="#Tl212060"><meta xsi:type="nex:LiteralMeta" content="21975" id="ma166304" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="51106" id="ma166305" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4837" xsi:type="nex:ResourceMeta" id="ma166306"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832683" xsi:type="nex:ResourceMeta" id="ma166307"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166308"/></otu>
+<otu label="Pilaira anomala" id="Tl57158" about="#Tl57158"><meta xsi:type="nex:LiteralMeta" content="22348" id="ma166310" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="52003" id="ma166311" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64641" xsi:type="nex:ResourceMeta" id="ma166312"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832571" xsi:type="nex:ResourceMeta" id="ma166313"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166314"/></otu>
+<otu label="Pilobolus umbonatus" id="Tl57160" about="#Tl57160"><meta xsi:type="nex:LiteralMeta" content="22358" id="ma166316" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="52026" id="ma166317" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101123" xsi:type="nex:ResourceMeta" id="ma166318"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832678" xsi:type="nex:ResourceMeta" id="ma166319"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166320"/></otu>
+<otu label="Piptocephalis corymbifera" id="Tl79276" about="#Tl79276"><meta xsi:type="nex:LiteralMeta" content="91055" id="ma166322" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="169972" id="ma166323" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/78917" xsi:type="nex:ResourceMeta" id="ma166324"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2833036" xsi:type="nex:ResourceMeta" id="ma166325"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166326"/></otu>
+<otu label="Poitrasia circinans" id="Tl57174" about="#Tl57174"><meta xsi:type="nex:LiteralMeta" content="23235" id="ma166328" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="54379" id="ma166329" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101093" xsi:type="nex:ResourceMeta" id="ma166330"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832382" xsi:type="nex:ResourceMeta" id="ma166331"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166332"/></otu>
+<otu label="Radiomyces spectabilis" id="Tl212028" about="#Tl212028"><meta xsi:type="nex:LiteralMeta" content="24734" id="ma166334" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="57933" id="ma166335" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64574" xsi:type="nex:ResourceMeta" id="ma166336"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832767" xsi:type="nex:ResourceMeta" id="ma166337"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166338"/></otu>
+<otu label="Rhizophydium sp" id="Tl18112" about="#Tl18112"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166340"/></otu>
+<otu label="Rhizopus microsporus var oligosporus" id="Tl57165" about="#Tl57165"><meta xsi:type="nex:LiteralMeta" content="25294" id="ma166342" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="114100" id="ma166343" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4847" xsi:type="nex:ResourceMeta" id="ma166344"/><meta xsi:type="nex:LiteralMeta" content="Rhizopus microsporus var. oligosporus" id="ma166345" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:10130395" xsi:type="nex:ResourceMeta" id="ma166346"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166347"/></otu>
+<otu label="Rhizopus oryzae" id="Tl212020" about="#Tl212020"><meta xsi:type="nex:LiteralMeta" content="25295" id="ma166349" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="59209" id="ma166350" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64495" xsi:type="nex:ResourceMeta" id="ma166351"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3903896" xsi:type="nex:ResourceMeta" id="ma166352"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166353"/></otu>
+<otu label="Gongronella butleri" id="Tl57180" about="#Tl57180"><meta xsi:type="nex:LiteralMeta" content="12420" id="ma166355" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="29471" id="ma166356" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101105" xsi:type="nex:ResourceMeta" id="ma166357"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832716" xsi:type="nex:ResourceMeta" id="ma166358"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166359"/></otu>
+<otu label="Halteromyces radiatus" id="Tl212003" about="#Tl212003"><meta xsi:type="nex:LiteralMeta" content="12904" id="ma166361" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="30536" id="ma166362" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101107" xsi:type="nex:ResourceMeta" id="ma166363"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832790" xsi:type="nex:ResourceMeta" id="ma166364"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166365"/></otu>
+<otu label="Hericium erinaceum" id="Tl79278" about="#Tl79278"><meta xsi:type="nex:LiteralMeta" content="100849" id="ma166367" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="180052" id="ma166368" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/91752" xsi:type="nex:ResourceMeta" id="ma166369"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3230176" xsi:type="nex:ResourceMeta" id="ma166370"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166371"/></otu>
+<otu label="Homo sapiens" id="Tl212027" about="#Tl212027"><meta xsi:type="nex:LiteralMeta" content="13680" id="ma166373" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="32274" id="ma166374" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9606" xsi:type="nex:ResourceMeta" id="ma166375"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2481730" xsi:type="nex:ResourceMeta" id="ma166376"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166377"/></otu>
+<otu label="Kickxella alabastrina" id="Tl212000" about="#Tl212000"><meta xsi:type="nex:LiteralMeta" content="14992" id="ma166379" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="35224" id="ma166380" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/61397" xsi:type="nex:ResourceMeta" id="ma166381"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5955674" xsi:type="nex:ResourceMeta" id="ma166382"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166383"/></otu>
+<otu label="Kuzuhaea moniliformis" id="Tl79270" about="#Tl79270"><meta xsi:type="nex:LiteralMeta" content="91049" id="ma166385" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="169969" id="ma166386" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/78909" xsi:type="nex:ResourceMeta" id="ma166387"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2833007" xsi:type="nex:ResourceMeta" id="ma166388"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166389"/></otu>
+<otu label="Linderina pennispora" id="Tl211997" about="#Tl211997"><meta xsi:type="nex:LiteralMeta" content="15998" id="ma166391" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="37493" id="ma166392" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/61395" xsi:type="nex:ResourceMeta" id="ma166393"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832357" xsi:type="nex:ResourceMeta" id="ma166394"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166395"/></otu>
+<otu label="Lobosporangium transversale" id="Tl79271" about="#Tl79271"><meta xsi:type="nex:LiteralMeta" content="9724" id="ma166397" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="113206" id="ma166398" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64571" xsi:type="nex:ResourceMeta" id="ma166399"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5956047" xsi:type="nex:ResourceMeta" id="ma166400"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166401"/></otu>
+<otu label="Monoblepharis sp" id="Tl79275" about="#Tl79275"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166403"/></otu>
+<otu label="Mortierella verticillata" id="Tl13200" about="#Tl13200"><meta xsi:type="nex:LiteralMeta" content="18200" id="ma166405" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="42554" id="ma166406" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/78898" xsi:type="nex:ResourceMeta" id="ma166407"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832758" xsi:type="nex:ResourceMeta" id="ma166408"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166409"/></otu>
+<otu label="Schizophyllum commune" id="Tl4064" about="#Tl4064"><meta xsi:type="nex:LiteralMeta" content="26377" id="ma166411" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="61637" id="ma166412" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/5334" xsi:type="nex:ResourceMeta" id="ma166413"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3109865" xsi:type="nex:ResourceMeta" id="ma166414"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166415"/></otu>
+<otu label="Schizosaccharomyces pombe" id="Tl212001" about="#Tl212001"><meta xsi:type="nex:LiteralMeta" content="26385" id="ma166417" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="61651" id="ma166418" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4896" xsi:type="nex:ResourceMeta" id="ma166419"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3113158" xsi:type="nex:ResourceMeta" id="ma166420"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166421"/></otu>
+<otu label="Smittium culisetae" id="Tl13014" about="#Tl13014"><meta xsi:type="nex:LiteralMeta" content="27087" id="ma166423" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="63230" id="ma166424" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/4889" xsi:type="nex:ResourceMeta" id="ma166425"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5952465" xsi:type="nex:ResourceMeta" id="ma166426"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166427"/></otu>
+<otu label="Spinellus fusiger" id="Tl212058" about="#Tl212058"><meta xsi:type="nex:LiteralMeta" content="27601" id="ma166429" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="64459" id="ma166430" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101115" xsi:type="nex:ResourceMeta" id="ma166431"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832493" xsi:type="nex:ResourceMeta" id="ma166432"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166433"/></otu>
+<otu label="Syncephalastrum racemosum" id="Tl211991" about="#Tl211991"><meta xsi:type="nex:LiteralMeta" content="28355" id="ma166435" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="66117" id="ma166436" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/13706" xsi:type="nex:ResourceMeta" id="ma166437"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832532" xsi:type="nex:ResourceMeta" id="ma166438"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166439"/></otu>
+<otu label="Syzygites megalocarpus" id="Tl57163" about="#Tl57163"><meta xsi:type="nex:LiteralMeta" content="28422" id="ma166441" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="66256" id="ma166442" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101119" xsi:type="nex:ResourceMeta" id="ma166443"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832543" xsi:type="nex:ResourceMeta" id="ma166444"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166445"/></otu>
+<otu label="Thamnostylum piriforme" id="Tl212007" about="#Tl212007"><meta xsi:type="nex:LiteralMeta" content="28865" id="ma166447" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="67317" id="ma166448" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101143" xsi:type="nex:ResourceMeta" id="ma166449"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832837" xsi:type="nex:ResourceMeta" id="ma166450"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166451"/></otu>
+<otu label="Trametes versicolor" id="Tl13183" about="#Tl13183"><meta xsi:type="nex:LiteralMeta" content="29302" id="ma166453" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="68310" id="ma166454" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/5325" xsi:type="nex:ResourceMeta" id="ma166455"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3165985" xsi:type="nex:ResourceMeta" id="ma166456"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166457"/></otu>
+<otu label="Umbelopsis isabellina" id="Tl211994" about="#Tl211994"><meta xsi:type="nex:LiteralMeta" content="18197" id="ma166459" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="70507" id="ma166460" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/91625" xsi:type="nex:ResourceMeta" id="ma166461"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3845390" xsi:type="nex:ResourceMeta" id="ma166462"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166463"/></otu>
+<otu label="Umbelopsis nana" id="Tl212045" about="#Tl212045"><meta xsi:type="nex:LiteralMeta" content="30201" id="ma166465" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="70512" id="ma166466" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/64526" xsi:type="nex:ResourceMeta" id="ma166467"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832402" xsi:type="nex:ResourceMeta" id="ma166468"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166469"/></otu>
+<otu label="Umbelopsis ramanniana" id="Tl212015" about="#Tl212015"><meta xsi:type="nex:LiteralMeta" content="17704" id="ma166471" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="70516" id="ma166472" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/41833" xsi:type="nex:ResourceMeta" id="ma166473"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3845392" xsi:type="nex:ResourceMeta" id="ma166474"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166475"/></otu>
+<otu label="Utharomyces epallocaulus" id="Tl57148" about="#Tl57148"><meta xsi:type="nex:LiteralMeta" content="30387" id="ma166477" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="70887" id="ma166478" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101125" xsi:type="nex:ResourceMeta" id="ma166479"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:1454994" xsi:type="nex:ResourceMeta" id="ma166480"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166481"/></otu>
+<otu label="Xenopus laevis" id="Tl211980" about="#Tl211980"><meta xsi:type="nex:LiteralMeta" content="31035" id="ma166483" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="72461" id="ma166484" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8355" xsi:type="nex:ResourceMeta" id="ma166485"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2476402" xsi:type="nex:ResourceMeta" id="ma166486"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166487"/></otu>
+<otu label="Zygorhynchus heterogamus" id="Tl212057" about="#Tl212057"><meta xsi:type="nex:LiteralMeta" content="31334" id="ma166489" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="73100" id="ma166490" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/101122" xsi:type="nex:ResourceMeta" id="ma166491"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2832479" xsi:type="nex:ResourceMeta" id="ma166492"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166493"/></otu>
+<otu label="Choanephora infundibulifera f cucurbitarum" id="Tl79272" about="#Tl79272"><meta xsi:type="nex:LiteralMeta" content="43618" id="ma166495" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="102012" id="ma166496" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/127959" xsi:type="nex:ResourceMeta" id="ma166497"/><meta xsi:type="nex:LiteralMeta" content="Choanephora infundibulifera" id="ma166498" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5962112" xsi:type="nex:ResourceMeta" id="ma166499"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166500"/></otu></otus><trees otus="Tls13642" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:" id="trees210013" about="#trees210013"><meta xsi:type="nex:LiteralMeta" content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@4dfb8662 $Rev: 1040 $" id="ma166502" datatype="xsd:string" property="skos:historyNote"/>
+<tree xsi:type="nex:IntTree" label="Fig. 1 PD" id="Tr5146" about="#Tr5146"><meta xsi:type="nex:LiteralMeta" content="72" id="ma166504" datatype="xsd:integer" property="tb:ntax.tree"/><meta xsi:type="nex:LiteralMeta" content="Unrated" id="ma166505" datatype="xsd:string" property="tb:quality.tree"/><meta xsi:type="nex:LiteralMeta" content="Single" id="ma166506" datatype="xsd:string" property="tb:type.tree"/><meta xsi:type="nex:LiteralMeta" content="Species Tree" id="ma166507" datatype="xsd:string" property="tb:kind.tree"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S2037" xsi:type="nex:ResourceMeta" id="ma166508"/>
+<node root="true" id="Tn367647" about="#Tn367647"/>
+<node id="Tn367653" about="#Tn367653"/>
+<node id="Tn367643" about="#Tn367643"/>
+<node id="Tn367678" about="#Tn367678"/>
+<node id="Tn367720" about="#Tn367720"/>
+<node id="Tn367645" about="#Tn367645"/>
+<node id="Tn367705" about="#Tn367705"/>
+<node label="Caenorhabditis elegans" id="Tn367748" about="#Tn367748" otu="Tl1961"/>
+<node label="Drosophila melanogaster" id="Tn367652" about="#Tn367652" otu="Tl211990"/>
+<node label="Ciona intestinalis" id="Tn367646" about="#Tn367646" otu="Tl211988"/>
+<node id="Tn367734" about="#Tn367734"/>
+<node id="Tn367681" about="#Tn367681"/>
+<node id="Tn367629" about="#Tn367629"/>
+<node id="Tn367689" about="#Tn367689"/>
+<node id="Tn367723" about="#Tn367723"/>
+<node label="Homo sapiens" id="Tn367701" about="#Tn367701" otu="Tl212027"/>
+<node label="Xenopus laevis" id="Tn367614" about="#Tn367614" otu="Tl211980"/>
+<node id="Tn367624" about="#Tn367624"/>
+<node label="Linderina pennispora" id="Tn367619" about="#Tn367619" otu="Tl211997"/>
+<node label="Kuzuhaea moniliformis" id="Tn367664" about="#Tn367664" otu="Tl79270"/>
+<node label="Piptocephalis corymbifera" id="Tn367739" about="#Tn367739" otu="Tl79276"/>
+<node id="Tn367608" about="#Tn367608"/>
+<node label="Furculomyces boomerangus" id="Tn367728" about="#Tn367728" otu="Tl13203"/>
+<node id="Tn367745" about="#Tn367745"/>
+<node id="Tn367674" about="#Tn367674"/>
+<node label="Coemansia reversa" id="Tn367638" about="#Tn367638" otu="Tl211982"/>
+<node label="Kickxella alabastrina" id="Tn367611" about="#Tn367611" otu="Tl212000"/>
+<node label="Capniomyces stellatus" id="Tn367661" about="#Tn367661" otu="Tl12998"/>
+<node label="Smittium culisetae" id="Tn367727" about="#Tn367727" otu="Tl13014"/>
+<node id="Tn367672" about="#Tn367672"/>
+<node id="Tn367691" about="#Tn367691"/>
+<node id="Tn367679" about="#Tn367679"/>
+<node id="Tn367618" about="#Tn367618"/>
+<node id="Tn367639" about="#Tn367639"/>
+<node id="Tn367687" about="#Tn367687"/>
+<node id="Tn367631" about="#Tn367631"/>
+<node id="Tn367675" about="#Tn367675"/>
+<node id="Tn367695" about="#Tn367695"/>
+<node label="Entomophthora muscae" id="Tn367698" about="#Tn367698" otu="Tl13002"/>
+<node id="Tn367663" about="#Tn367663"/>
+<node id="Tn367730" about="#Tn367730"/>
+<node label="Endogone lactiflua" id="Tn367714" about="#Tn367714" otu="Tl79277"/>
+<node label="Endogone pisiformis" id="Tn367656" about="#Tn367656" otu="Tl42593"/>
+<node id="Tn367697" about="#Tn367697"/>
+<node id="Tn367625" about="#Tn367625"/>
+<node label="Geosiphon pyriformis" id="Tn367642" about="#Tn367642" otu="Tl42597"/>
+<node id="Tn367640" about="#Tn367640"/>
+<node id="Tn367667" about="#Tn367667"/>
+<node id="Tn367718" about="#Tn367718"/>
+<node label="Conidiobolus coronatus" id="Tn367729" about="#Tn367729" otu="Tl13197"/>
+<node label="Conidiobolus lamprauges" id="Tn367725" about="#Tn367725" otu="Tl54220"/>
+<node id="Tn367700" about="#Tn367700"/>
+<node label="Umbelopsis ramanniana" id="Tn367710" about="#Tn367710" otu="Tl212015"/>
+<node id="Tn367633" about="#Tn367633"/>
+<node id="Tn367616" about="#Tn367616"/>
+<node label="Rhizophydium sp" id="Tn367690" about="#Tn367690" otu="Tl18112"/>
+<node id="Tn367735" about="#Tn367735"/>
+<node label="Basidiobolus ranarum" id="Tn367682" about="#Tn367682" otu="Tl13191"/>
+<node id="Tn367637" about="#Tn367637"/>
+<node label="Gigaspora margarita" id="Tn367722" about="#Tn367722" otu="Tl39000"/>
+<node id="Tn367649" about="#Tn367649"/>
+<node label="Schizosaccharomyces pombe" id="Tn367685" about="#Tn367685" otu="Tl212001"/>
+<node id="Tn367740" about="#Tn367740"/>
+<node label="Trametes versicolor" id="Tn367721" about="#Tn367721" otu="Tl13183"/>
+<node id="Tn367703" about="#Tn367703"/>
+<node label="Umbelopsis isabellina" id="Tn367738" about="#Tn367738" otu="Tl211994"/>
+<node label="Umbelopsis nana" id="Tn367684" about="#Tn367684" otu="Tl212045"/>
+<node label="Gongronella butleri" id="Tn367715" about="#Tn367715" otu="Tl57180"/>
+<node id="Tn367654" about="#Tn367654"/>
+<node id="Tn367743" about="#Tn367743"/>
+<node id="Tn367669" about="#Tn367669"/>
+<node label="Chytriomyces sp" id="Tn367692" about="#Tn367692" otu="Tl79279"/>
+<node id="Tn367706" about="#Tn367706"/>
+<node id="Tn367658" about="#Tn367658"/>
+<node label="Mortierella verticillata" id="Tn367736" about="#Tn367736" otu="Tl13200"/>
+<node id="Tn367635" about="#Tn367635"/>
+<node label="Glomus mosseae" id="Tn367683" about="#Tn367683" otu="Tl212031"/>
+<node label="Candida albicans" id="Tn367622" about="#Tn367622" otu="Tl212006"/>
+<node label="Neurospora crassa" id="Tn367732" about="#Tn367732" otu="Tl212055"/>
+<node label="Schizophyllum commune" id="Tn367660" about="#Tn367660" otu="Tl4064"/>
+<node id="Tn367612" about="#Tn367612"/>
+<node label="Halteromyces radiatus" id="Tn367630" about="#Tn367630" otu="Tl212003"/>
+<node id="Tn367666" about="#Tn367666"/>
+<node id="Tn367665" about="#Tn367665"/>
+<node id="Tn367623" about="#Tn367623"/>
+<node label="Radiomyces spectabilis" id="Tn367644" about="#Tn367644" otu="Tl212028"/>
+<node id="Tn367659" about="#Tn367659"/>
+<node label="Gonapodya sp" id="Tn367713" about="#Tn367713" otu="Tl79273"/>
+<node label="Monoblepharis sp" id="Tn367662" about="#Tn367662" otu="Tl79275"/>
+<node label="Dissophora decumbens" id="Tn367699" about="#Tn367699" otu="Tl212005"/>
+<node label="Lobosporangium transversale" id="Tn367704" about="#Tn367704" otu="Tl79271"/>
+<node label="Glomus clarum" id="Tn367708" about="#Tn367708" otu="Tl211986"/>
+<node label="Glomus intraradices" id="Tn367650" about="#Tn367650" otu="Tl212012"/>
+<node label="Coprinus cinereus" id="Tn367719" about="#Tn367719" otu="Tl13181"/>
+<node label="Hericium erinaceum" id="Tn367607" about="#Tn367607" otu="Tl79278"/>
+<node label="Absidia glauca" id="Tn367717" about="#Tn367717" otu="Tl212016"/>
+<node label="Chlamydoabsidia padenii" id="Tn367634" about="#Tn367634" otu="Tl211993"/>
+<node label="Phycomyces blakesleeanus" id="Tn367627" about="#Tn367627" otu="Tl212060"/>
+<node label="Spinellus fusiger" id="Tn367670" about="#Tn367670" otu="Tl212058"/>
+<node id="Tn367620" about="#Tn367620"/>
+<node id="Tn367741" about="#Tn367741"/>
+<node label="Cokeromyces recurvatus" id="Tn367711" about="#Tn367711" otu="Tl54238"/>
+<node id="Tn367737" about="#Tn367737"/>
+<node label="Thamnostylum piriforme" id="Tn367724" about="#Tn367724" otu="Tl212007"/>
+<node label="Fennellomyces linderi" id="Tn367726" about="#Tn367726" otu="Tl211995"/>
+<node label="Absidia corymbifera" id="Tn367651" about="#Tn367651" otu="Tl48965"/>
+<node label="Syncephalastrum racemosum" id="Tn367694" about="#Tn367694" otu="Tl211991"/>
+<node id="Tn367655" about="#Tn367655"/>
+<node id="Tn367609" about="#Tn367609"/>
+<node label="Rhizopus microsporus var oligosporus" id="Tn367693" about="#Tn367693" otu="Tl57165"/>
+<node id="Tn367657" about="#Tn367657"/>
+<node id="Tn367671" about="#Tn367671"/>
+<node id="Tn367617" about="#Tn367617"/>
+<node label="Rhizopus oryzae" id="Tn367702" about="#Tn367702" otu="Tl212020"/>
+<node label="Syzygites megalocarpus" id="Tn367712" about="#Tn367712" otu="Tl57163"/>
+<node label="Pilobolus umbonatus" id="Tn367680" about="#Tn367680" otu="Tl57160"/>
+<node label="Utharomyces epallocaulus" id="Tn367747" about="#Tn367747" otu="Tl57148"/>
+<node id="Tn367696" about="#Tn367696"/>
+<node id="Tn367610" about="#Tn367610"/>
+<node label="Chaetocladium brefeldii" id="Tn367686" about="#Tn367686" otu="Tl3491"/>
+<node id="Tn367668" about="#Tn367668"/>
+<node id="Tn367746" about="#Tn367746"/>
+<node id="Tn367626" about="#Tn367626"/>
+<node label="Ellisomyces anomalus" id="Tn367709" about="#Tn367709" otu="Tl3489"/>
+<node id="Tn367688" about="#Tn367688"/>
+<node label="Mycotypha africana" id="Tn367673" about="#Tn367673" otu="Tl57168"/>
+<node id="Tn367733" about="#Tn367733"/>
+<node label="Actinomucor elegans" id="Tn367621" about="#Tn367621" otu="Tl57164"/>
+<node id="Tn367677" about="#Tn367677"/>
+<node label="Mucor racemosus" id="Tn367707" about="#Tn367707" otu="Tl212049"/>
+<node label="Parasitella parasitica" id="Tn367731" about="#Tn367731" otu="Tl212018"/>
+<node label="Gilbertella persicaria" id="Tn367749" about="#Tn367749" otu="Tl57146"/>
+<node id="Tn367628" about="#Tn367628"/>
+<node id="Tn367615" about="#Tn367615"/>
+<node id="Tn367744" about="#Tn367744"/>
+<node label="Choanephora infundibulifera f cucurbitarum" id="Tn367641" about="#Tn367641" otu="Tl79272"/>
+<node id="Tn367632" about="#Tn367632"/>
+<node label="Mucor hiemalis f hiemalis" id="Tn367676" about="#Tn367676" otu="Tl79274"/>
+<node label="Zygorhynchus heterogamus" id="Tn367613" about="#Tn367613" otu="Tl212057"/>
+<node label="Mucor mucedo" id="Tn367742" about="#Tn367742" otu="Tl212032"/>
+<node label="Pilaira anomala" id="Tn367716" about="#Tn367716" otu="Tl57158"/>
+<node label="Blakeslea trispora" id="Tn367636" about="#Tn367636" otu="Tl212038"/>
+<node label="Poitrasia circinans" id="Tn367648" about="#Tn367648" otu="Tl57174"/>
+<edge source="Tn367647" target="Tn367653" id="edge166510"/>
+<edge source="Tn367647" target="Tn367643" id="edge166519"/>
+<edge source="Tn367653" target="Tn367678" id="edge166511"/>
+<edge source="Tn367653" target="Tn367720" id="edge166514"/>
+<edge source="Tn367643" target="Tn367645" id="edge166520"/>
+<edge source="Tn367643" target="Tn367705" id="edge166529"/>
+<edge source="Tn367678" target="Tn367748" id="edge166512"/>
+<edge source="Tn367678" target="Tn367652" id="edge166513"/>
+<edge source="Tn367720" target="Tn367646" id="edge166515"/>
+<edge source="Tn367720" target="Tn367734" id="edge166516"/>
+<edge source="Tn367645" target="Tn367681" id="edge166521"/>
+<edge source="Tn367645" target="Tn367629" id="edge166526"/>
+<edge source="Tn367705" target="Tn367689" id="edge166530"/>
+<edge source="Tn367705" target="Tn367723" id="edge166535"/>
+<edge source="Tn367734" target="Tn367701" id="edge166517"/>
+<edge source="Tn367734" target="Tn367614" id="edge166518"/>
+<edge source="Tn367681" target="Tn367624" id="edge166522"/>
+<edge source="Tn367681" target="Tn367619" id="edge166525"/>
+<edge source="Tn367629" target="Tn367664" id="edge166527"/>
+<edge source="Tn367629" target="Tn367739" id="edge166528"/>
+<edge source="Tn367689" target="Tn367608" id="edge166531"/>
+<edge source="Tn367689" target="Tn367728" id="edge166534"/>
+<edge source="Tn367723" target="Tn367745" id="edge166536"/>
+<edge source="Tn367723" target="Tn367674" id="edge166579"/>
+<edge source="Tn367624" target="Tn367638" id="edge166523"/>
+<edge source="Tn367624" target="Tn367611" id="edge166524"/>
+<edge source="Tn367608" target="Tn367661" id="edge166532"/>
+<edge source="Tn367608" target="Tn367727" id="edge166533"/>
+<edge source="Tn367745" target="Tn367672" id="edge166537"/>
+<edge source="Tn367745" target="Tn367691" id="edge166556"/>
+<edge source="Tn367674" target="Tn367679" id="edge166580"/>
+<edge source="Tn367674" target="Tn367618" id="edge166585"/>
+<edge source="Tn367672" target="Tn367639" id="edge166538"/>
+<edge source="Tn367672" target="Tn367687" id="edge166541"/>
+<edge source="Tn367691" target="Tn367631" id="edge166557"/>
+<edge source="Tn367691" target="Tn367675" id="edge166566"/>
+<edge source="Tn367679" target="Tn367695" id="edge166581"/>
+<edge source="Tn367679" target="Tn367698" id="edge166584"/>
+<edge source="Tn367618" target="Tn367663" id="edge166586"/>
+<edge source="Tn367618" target="Tn367730" id="edge166591"/>
+<edge source="Tn367639" target="Tn367714" id="edge166539"/>
+<edge source="Tn367639" target="Tn367656" id="edge166540"/>
+<edge source="Tn367687" target="Tn367697" id="edge166542"/>
+<edge source="Tn367687" target="Tn367625" id="edge166549"/>
+<edge source="Tn367631" target="Tn367642" id="edge166558"/>
+<edge source="Tn367631" target="Tn367640" id="edge166559"/>
+<edge source="Tn367675" target="Tn367667" id="edge166567"/>
+<edge source="Tn367675" target="Tn367718" id="edge166572"/>
+<edge source="Tn367695" target="Tn367729" id="edge166582"/>
+<edge source="Tn367695" target="Tn367725" id="edge166583"/>
+<edge source="Tn367663" target="Tn367700" id="edge166587"/>
+<edge source="Tn367663" target="Tn367710" id="edge166590"/>
+<edge source="Tn367730" target="Tn367633" id="edge166592"/>
+<edge source="Tn367730" target="Tn367616" id="edge166599"/>
+<edge source="Tn367697" target="Tn367690" id="edge166543"/>
+<edge source="Tn367697" target="Tn367735" id="edge166544"/>
+<edge source="Tn367625" target="Tn367682" id="edge166550"/>
+<edge source="Tn367625" target="Tn367637" id="edge166551"/>
+<edge source="Tn367640" target="Tn367722" id="edge166560"/>
+<edge source="Tn367640" target="Tn367649" id="edge166561"/>
+<edge source="Tn367667" target="Tn367685" id="edge166568"/>
+<edge source="Tn367667" target="Tn367740" id="edge166569"/>
+<edge source="Tn367718" target="Tn367721" id="edge166573"/>
+<edge source="Tn367718" target="Tn367703" id="edge166574"/>
+<edge source="Tn367700" target="Tn367738" id="edge166588"/>
+<edge source="Tn367700" target="Tn367684" id="edge166589"/>
+<edge source="Tn367633" target="Tn367715" id="edge166593"/>
+<edge source="Tn367633" target="Tn367654" id="edge166594"/>
+<edge source="Tn367616" target="Tn367743" id="edge166600"/>
+<edge source="Tn367616" target="Tn367669" id="edge166611"/>
+<edge source="Tn367735" target="Tn367692" id="edge166545"/>
+<edge source="Tn367735" target="Tn367706" id="edge166546"/>
+<edge source="Tn367637" target="Tn367658" id="edge166552"/>
+<edge source="Tn367637" target="Tn367736" id="edge166555"/>
+<edge source="Tn367649" target="Tn367635" id="edge166562"/>
+<edge source="Tn367649" target="Tn367683" id="edge166565"/>
+<edge source="Tn367740" target="Tn367622" id="edge166570"/>
+<edge source="Tn367740" target="Tn367732" id="edge166571"/>
+<edge source="Tn367703" target="Tn367660" id="edge166575"/>
+<edge source="Tn367703" target="Tn367612" id="edge166576"/>
+<edge source="Tn367654" target="Tn367630" id="edge166595"/>
+<edge source="Tn367654" target="Tn367666" id="edge166596"/>
+<edge source="Tn367743" target="Tn367665" id="edge166601"/>
+<edge source="Tn367743" target="Tn367623" id="edge166604"/>
+<edge source="Tn367669" target="Tn367644" id="edge166612"/>
+<edge source="Tn367669" target="Tn367659" id="edge166613"/>
+<edge source="Tn367706" target="Tn367713" id="edge166547"/>
+<edge source="Tn367706" target="Tn367662" id="edge166548"/>
+<edge source="Tn367658" target="Tn367699" id="edge166553"/>
+<edge source="Tn367658" target="Tn367704" id="edge166554"/>
+<edge source="Tn367635" target="Tn367708" id="edge166563"/>
+<edge source="Tn367635" target="Tn367650" id="edge166564"/>
+<edge source="Tn367612" target="Tn367719" id="edge166577"/>
+<edge source="Tn367612" target="Tn367607" id="edge166578"/>
+<edge source="Tn367666" target="Tn367717" id="edge166597"/>
+<edge source="Tn367666" target="Tn367634" id="edge166598"/>
+<edge source="Tn367665" target="Tn367627" id="edge166602"/>
+<edge source="Tn367665" target="Tn367670" id="edge166603"/>
+<edge source="Tn367623" target="Tn367620" id="edge166605"/>
+<edge source="Tn367623" target="Tn367741" id="edge166608"/>
+<edge source="Tn367659" target="Tn367711" id="edge166614"/>
+<edge source="Tn367659" target="Tn367737" id="edge166615"/>
+<edge source="Tn367620" target="Tn367724" id="edge166606"/>
+<edge source="Tn367620" target="Tn367726" id="edge166607"/>
+<edge source="Tn367741" target="Tn367651" id="edge166609"/>
+<edge source="Tn367741" target="Tn367694" id="edge166610"/>
+<edge source="Tn367737" target="Tn367655" id="edge166616"/>
+<edge source="Tn367737" target="Tn367609" id="edge166621"/>
+<edge source="Tn367655" target="Tn367693" id="edge166617"/>
+<edge source="Tn367655" target="Tn367657" id="edge166618"/>
+<edge source="Tn367609" target="Tn367671" id="edge166622"/>
+<edge source="Tn367609" target="Tn367617" id="edge166625"/>
+<edge source="Tn367657" target="Tn367702" id="edge166619"/>
+<edge source="Tn367657" target="Tn367712" id="edge166620"/>
+<edge source="Tn367671" target="Tn367680" id="edge166623"/>
+<edge source="Tn367671" target="Tn367747" id="edge166624"/>
+<edge source="Tn367617" target="Tn367696" id="edge166626"/>
+<edge source="Tn367617" target="Tn367610" id="edge166633"/>
+<edge source="Tn367696" target="Tn367686" id="edge166627"/>
+<edge source="Tn367696" target="Tn367668" id="edge166628"/>
+<edge source="Tn367610" target="Tn367746" id="edge166634"/>
+<edge source="Tn367610" target="Tn367626" id="edge166643"/>
+<edge source="Tn367668" target="Tn367709" id="edge166629"/>
+<edge source="Tn367668" target="Tn367688" id="edge166630"/>
+<edge source="Tn367746" target="Tn367673" id="edge166635"/>
+<edge source="Tn367746" target="Tn367733" id="edge166636"/>
+<edge source="Tn367626" target="Tn367621" id="edge166644"/>
+<edge source="Tn367626" target="Tn367677" id="edge166645"/>
+<edge source="Tn367688" target="Tn367707" id="edge166631"/>
+<edge source="Tn367688" target="Tn367731" id="edge166632"/>
+<edge source="Tn367733" target="Tn367749" id="edge166637"/>
+<edge source="Tn367733" target="Tn367628" id="edge166638"/>
+<edge source="Tn367677" target="Tn367615" id="edge166646"/>
+<edge source="Tn367677" target="Tn367744" id="edge166649"/>
+<edge source="Tn367628" target="Tn367641" id="edge166639"/>
+<edge source="Tn367628" target="Tn367632" id="edge166640"/>
+<edge source="Tn367615" target="Tn367676" id="edge166647"/>
+<edge source="Tn367615" target="Tn367613" id="edge166648"/>
+<edge source="Tn367744" target="Tn367742" id="edge166650"/>
+<edge source="Tn367744" target="Tn367716" id="edge166651"/>
+<edge source="Tn367632" target="Tn367636" id="edge166641"/>
+<edge source="Tn367632" target="Tn367648" id="edge166642"/></tree></trees></nex:nexml>

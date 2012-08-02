@@ -1,0 +1,167 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thu Jun 28 09:29:20 2012]
+[!
+>Data file = /Users/rvosa/Dropbox/documents/projects/current/cobra/data/supertree/MRP_matrix.nex
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1143 total characters:
+>        All characters are of type 'ord' (Wagner)
+>        All characters have equal weight
+>        540 characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 603
+>    Gaps are treated as "missing"
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Initial swapping on tree 1 already in memory
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 200 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option not in effect; only 1 tree will be saved per replicate
+>  Keeping only trees compatible with constraint-tree "ncbi"
+>  Trees are unrooted
+>
+>Heuristic search completed
+>   Total number of rearrangements tried = 3592
+>   Score of best tree(s) found = 1247
+>   Number of trees retained = 1
+>   Time used = 1 sec (CPU time = 0.20 sec)
+]
+	Translate
+		1 ACIPSCHR,
+		2 ACIPSINE,
+		3 AGKICONT,
+		4 AGKIPISC,
+		5 AILUMELA,
+		6 ANOLCARO,
+		7 ATHENITS,
+		8 ATRAMICR,
+		9 AUSTSUPE,
+		10 AZEMFEAE,
+		11 BITIARIE,
+		12 BITIGABO,
+		13 BOSTAUR,
+		14 BOTHASPE,
+		15 BOTHINSU,
+		16 BOTHJARA,
+		17 BOTHJARC,
+		18 BOTHMOOJ,
+		19 BOTHNEUW,
+		20 BOTHSCHL,
+		21 BUNGCAND,
+		22 BUNGFASC,
+		23 BUNGMULT,
+		24 CALLJACC,
+		25 CALLRHOD,
+		26 CELEWARR,
+		27 CERACERA,
+		28 CERBRYNC,
+		29 CERRGODM,
+		30 CROTADAM,
+		31 CROTATRO,
+		32 CROTDURI,
+		33 CROTHORR,
+		34 CROTMOLO,
+		35 CROTOREG,
+		36 CROTVIRI,
+		37 CRYPALBO,
+		38 CYPRCARP,
+		39 DABORUSS,
+		40 DANIRERI,
+		41 DEINACUT,
+		42 DEMAVEST,
+		43 DISPTYPU,
+		44 DRYSCORO,
+		45 ECHICARI,
+		46 ECHIOCEL,
+		47 ECHIPYRA,
+		48 ENHYPOLY,
+		49 EQUUCABA,
+		50 GALLGALL,
+		51 GERRINFE,
+		52 GLOYBLOM,
+		53 GLOYHALY,
+		54 GLOYUSSU,
+		55 HELOCINC,
+		56 HELOHORR,
+		57 HOMOSAPI,
+		58 HOPLSTEP,
+		59 LACHMUTA,
+		60 LAMPFLUV,
+		61 LAPEHARD,
+		62 LATISEMI,
+		63 LEIOMADA,
+		64 LIOPPOEC,
+		65 MACAFASC,
+		66 MACAMULA,
+		67 MACRLEBE,
+		68 MASTNATA,
+		69 MELEGALL,
+		70 MICRCORA,
+		71 MICRIKAH,
+		72 MONODOME,
+		73 MUSMUSC,
+		74 NAJAATRA,
+		75 NAJAKAOU,
+		76 NAJAMOSS,
+		77 NAJASPUT,
+		78 NOTESCUT,
+		79 ONCOKETA,
+		80 ONCOMYKI,
+		81 OPHIHANN,
+		82 ORYCCUNI,
+		83 OXYUMICR,
+		84 OXYUSCUT,
+		85 PANTROG,
+		86 PHILOLFE,
+		87 POGOBARB,
+		88 PONGABEL,
+		89 PROTELEG,
+		90 PROTJERD,
+		91 PROTMUCR,
+		92 PSAMMOSS,
+		93 PSEUAPOD,
+		94 PSEUAUST,
+		95 PSEUPORP,
+		96 PSEUTEXT,
+		97 PYTHMOLU,
+		98 RATTNORV,
+		99 RHABTIGR,
+		100 RHINNIGR,
+		101 SAIMSCIU,
+		102 SALMSALA,
+		103 SCHIMANS,
+		104 SISTCATE,
+		105 SPIRLANC,
+		106 SUSSCRO,
+		107 TAENGUTT,
+		108 TELEDHAR,
+		109 THAMELEG,
+		110 THRAJACK,
+		111 TRIMBISC,
+		112 TRIMFLAV,
+		113 TRIMGRAC,
+		114 TRIMGRAM,
+		115 TROPCARI,
+		116 VARAACAN,
+		117 VARAGILL,
+		118 VARAGLAU,
+		119 VARAGOUL,
+		120 VARAINDI,
+		121 VARAKOMO,
+		122 VARAMERT,
+		123 VARAMITC,
+		124 VARAPANO,
+		125 VARASCAL,
+		126 VARATRIS,
+		127 VARAVARI,
+		128 VIPEBERU,
+		129 VIPENIKO,
+		130 VIRISTEJ,
+		131 XENOLAEV,
+		132 XENOTROP,
+		133 XIPHMACU,
+		134 mrp_outgroup
+		;
+tree PAUP_1 = [&U] (1,(2,((((((((((((((((((((3,4),(((((30,36),(31,32)),35),33),34)),(20,59)),((((14,18),17),(15,16)),29)),104),((((52,54),53),((112,114),113)),((89,91),90))),(19,(37,130))),41),25),10),((7,(11,12)),((27,((45,47),46)),((39,(128,129)),67)))),((8,((((((9,78),(((83,84),96),(94,95))),62),((42,(58,71)),(44,115))),(((21,23),22),(70,((((74,75),77),76),81)))),(61,100))),((28,48),(((((43,108),110),111),((64,86),(99,109))),(63,92))))),97),((26,51,93),((55,56),((((116,117),((118,126),(123,125))),(((119,124),122),(121,127))),120)))),(6,87)),((50,69),107)),((((5,49),(13,106)),(((24,101),(((57,85),88),(65,66))),(((68,73),98),82))),72)),(131,132)),(60,(103,134))),((38,40),((((79,80),102),105),133)))));
+End;

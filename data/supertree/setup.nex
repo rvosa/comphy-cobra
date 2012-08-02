@@ -1,0 +1,53 @@
+#nexus
+[
+  PAUPRat example setup file. Sikes, D. S. and P. O. Lewis. 2001. beta
+  software, version 1. PAUPRat: PAUP* implementation of the parsimony
+  ratchet. Distributed by the authors. Department of Ecology and
+  Evolutionary Biology, University of Connecticut, Storrs, USA. April
+  2001. Based on Kevin Nixon's Parsimony Ratchet as described in:
+  Nixon, K. C.  1999.  The Parsimony Ratchet, a new method for rapid
+  parsimony analysis.  Cladistics 15: 407-414.
+]
+begin pauprat;
+  dimensions nchar=1143;
+  set seed=0 nreps=200 pct=15; [nmod=50] 
+  set wtmode=uniform; [choices for wtmode: mult, uniform, add]
+  set terse [use either verbose or terse but not both];
+
+  startcmd "[!*************************************]";
+  startcmd "[!* ---------- PAUP* Ratchet -------- *]";
+  startcmd "[!*   Derek S. Sikes & Paul O. Lewis  *]";
+  startcmd "[!*     University of Connecticut     *]";
+  startcmd "[!*            March, 2000            *]";
+  startcmd "[!* Based on Kevin Nixon's Parsimony  *]";
+  startcmd "[!* Ratchet as described in: Nixon,   *]";
+  startcmd "[!* K. C. 1999. The Parsimony Ratchet *]";
+  startcmd "[!* a new method for rapid parsimony  *]";
+  startcmd "[!* analysis. Cladistics 15: 407-414. *]";
+  startcmd "[!*************************************]";
+  startcmd "[exe rbcl.nex]";
+  startcmd "log file=paupratchet.log";
+  startcmd "set increase=auto";
+  startcmd "hs status=no nrep=1 swap=tbr start=stepwise addseq=random nchuck=1 chuckscore=1 enforce=yes";
+  startcmd "savetrees file=mydata.tre replace";
+  startcmd "savetrees file=mydata.tmp replace";
+  paupcmd "pset mstaxa=uncertain";
+  paupcmd "hsearch status=no start=1 swap=tbr multrees=no enforce=yes";
+  normcmd "savetrees file=mydata.tmp replace";
+  normcmd "gettrees file=mydata.tre mode=7";
+  normcmd "savetrees file=mydata.tre replace";
+  normcmd "gettrees file=mydata.tmp mode=3 warntree=no";
+  normcmd "time";
+  stopcmd "gettrees file=mydata.tre mode=3";
+  stopcmd "pscores all";
+  stopcmd "time";
+  stopcmd "log stop";
+  stopcmd "[!**********************************]";
+  stopcmd "[!* -- THIS SEARCH IS COMPLETE --  *]";
+  stopcmd "[!*  A LOG FILE HAS BEEN WRITTEN   *]";
+  stopcmd "[!* AND ALL TREES HAVE BEEN SAVED. *]";
+  stopcmd "[!*     IT IS OK TO QUIT PAUP*     *]";
+  stopcmd "[!**********************************]";
+  stopcmd "[quit]";
+  write file=ratchet.nex replace;
+end;

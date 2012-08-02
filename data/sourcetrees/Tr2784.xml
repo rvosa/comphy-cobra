@@ -1,0 +1,437 @@
+<nex:nexml xmlns="http://www.nexml.org/2009" version="0.9" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" generator="Bio::Phylo::Project v.0.46_1660" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nex="http://www.nexml.org/2009" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#nl7560" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><meta xsi:type="nex:LiteralMeta" content="rvosa" id="ma8285" datatype="xsd:string" property="dc:creator"/><meta xsi:type="nex:LiteralMeta" content="2012-03-15T16:22:20" id="ma8286" datatype="xsd:date" property="dc:date"/><otus xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:" label="Codon position model Bayesian posterior consensus" id="Tls13052" about="#Tls13052"><meta xsi:type="nex:LiteralMeta" content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@50e3a6ca $Rev: 1040 $" id="ma7562" datatype="xsd:string" property="skos:historyNote"/>
+<otu label="Crocodylus cataphractus" id="Tl13898" about="#Tl13898"><meta xsi:type="nex:LiteralMeta" content="7504" id="ma7564" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="18146" id="ma7565" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Mecistops cataphractus" id="ma7566" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/184780" xsi:type="nex:ResourceMeta" id="ma7567"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2538187" xsi:type="nex:ResourceMeta" id="ma7568"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7569"/></otu>
+<otu label="Tomistoma schlegelii" id="Tl13899" about="#Tl13899"><meta xsi:type="nex:LiteralMeta" content="29192" id="ma7571" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="68012" id="ma7572" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/184245" xsi:type="nex:ResourceMeta" id="ma7573"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2545708" xsi:type="nex:ResourceMeta" id="ma7574"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7575"/></otu>
+<otu label="Caiman latirostris" id="Tl49193" about="#Tl49193"><meta xsi:type="nex:LiteralMeta" content="4391" id="ma7577" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="10567" id="ma7578" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/190476" xsi:type="nex:ResourceMeta" id="ma7579"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2537199" xsi:type="nex:ResourceMeta" id="ma7580"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7581"/></otu>
+<otu label="Gavialis gangeticus" id="Tl189357" about="#Tl189357"><meta xsi:type="nex:LiteralMeta" content="11782" id="ma7583" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="28069" id="ma7584" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/94835" xsi:type="nex:ResourceMeta" id="ma7585"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2539857" xsi:type="nex:ResourceMeta" id="ma7586"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7587"/></otu>
+<otu label="Alligator mississipiensis" id="Tl49182" about="#Tl49182"><meta xsi:type="nex:LiteralMeta" content="835" id="ma7589" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="2038" id="ma7590" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Alligator mississippiensis" id="ma7591" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8496" xsi:type="nex:ResourceMeta" id="ma7592"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2813218" xsi:type="nex:ResourceMeta" id="ma7593"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7594"/></otu>
+<otu label="Passer montanus" id="Tl189394" about="#Tl189394"><meta xsi:type="nex:LiteralMeta" content="42171" id="ma7596" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98361" id="ma7597" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9160" xsi:type="nex:ResourceMeta" id="ma7598"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3849659" xsi:type="nex:ResourceMeta" id="ma7599"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7600"/></otu>
+<otu label="Coracias caudata" id="Tl189363" about="#Tl189363"><meta xsi:type="nex:LiteralMeta" content="42172" id="ma7602" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98365" id="ma7603" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/56292" xsi:type="nex:ResourceMeta" id="ma7604"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2474859" xsi:type="nex:ResourceMeta" id="ma7605"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7606"/></otu>
+<otu label="Grus canadensis" id="Tl189355" about="#Tl189355"><meta xsi:type="nex:LiteralMeta" content="39732" id="ma7608" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="92122" id="ma7609" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/40820" xsi:type="nex:ResourceMeta" id="ma7610"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3852043" xsi:type="nex:ResourceMeta" id="ma7611"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7612"/></otu>
+<otu label="Eumeces anthracinus" id="Tl49183" about="#Tl49183"><meta xsi:type="nex:LiteralMeta" content="10836" id="ma7614" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="25943" id="ma7615" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Plestiodon anthracinus" id="ma7616" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/463512" xsi:type="nex:ResourceMeta" id="ma7617"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2539657" xsi:type="nex:ResourceMeta" id="ma7618"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7619"/></otu>
+<otu label="Typhlosaurus lomii" id="Tl49219" about="#Tl49219"><meta xsi:type="nex:LiteralMeta" content="30146" id="ma7621" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="70395" id="ma7622" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/156907" xsi:type="nex:ResourceMeta" id="ma7623"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2546203" xsi:type="nex:ResourceMeta" id="ma7624"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7625"/></otu>
+<otu label="Euprepis auratus" id="Tl49178" about="#Tl49178"><meta xsi:type="nex:LiteralMeta" content="16635" id="ma7627" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98367" id="ma7628" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/217855" xsi:type="nex:ResourceMeta" id="ma7629"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5549417" xsi:type="nex:ResourceMeta" id="ma7630"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7631"/></otu>
+<otu label="Ctenotus robustus" id="Tl49208" about="#Tl49208"><meta xsi:type="nex:LiteralMeta" content="7694" id="ma7633" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="18533" id="ma7634" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/220778" xsi:type="nex:ResourceMeta" id="ma7635"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2538491" xsi:type="nex:ResourceMeta" id="ma7636"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7637"/></otu>
+<otu label="Dibamus sp." id="Tl189417" about="#Tl189417"><meta xsi:type="nex:LiteralMeta" content="8927" id="ma7639" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="21470" id="ma7640" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/261509" xsi:type="nex:ResourceMeta" id="ma7641"/><meta xsi:type="nex:LiteralMeta" content="Dibamus" id="ma7642" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2546890" xsi:type="nex:ResourceMeta" id="ma7643"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7644"/></otu>
+<otu label="Bipes biporus" id="Tl49202" about="#Tl49202"><meta xsi:type="nex:LiteralMeta" content="3535" id="ma7646" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="8474" id="ma7647" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52188" xsi:type="nex:ResourceMeta" id="ma7648"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2536896" xsi:type="nex:ResourceMeta" id="ma7649"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7650"/></otu>
+<otu label="Aspidoscelis tigris" id="Tl49196" about="#Tl49196"><meta xsi:type="nex:LiteralMeta" content="6521" id="ma7652" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98368" id="ma7653" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52180" xsi:type="nex:ResourceMeta" id="ma7654"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:185244" xsi:type="nex:ResourceMeta" id="ma7655"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7656"/></otu>
+<otu label="Chamaeleo rudis" id="Tl49207" about="#Tl49207"><meta xsi:type="nex:LiteralMeta" content="5682" id="ma7658" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="13773" id="ma7659" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Trioceros rudis" id="ma7660" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/179920" xsi:type="nex:ResourceMeta" id="ma7661"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2537593" xsi:type="nex:ResourceMeta" id="ma7662"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7663"/></otu>
+<otu label="Ctenophorus salinarum" id="Tl12321" about="#Tl12321"><meta xsi:type="nex:LiteralMeta" content="7689" id="ma7665" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="18522" id="ma7666" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/180005" xsi:type="nex:ResourceMeta" id="ma7667"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2538390" xsi:type="nex:ResourceMeta" id="ma7668"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7669"/></otu>
+<otu label="Physignathus cocincinus" id="Tl189421" about="#Tl189421"><meta xsi:type="nex:LiteralMeta" content="22227" id="ma7671" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="51707" id="ma7672" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52200" xsi:type="nex:ResourceMeta" id="ma7673"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2543761" xsi:type="nex:ResourceMeta" id="ma7674"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7675"/></otu>
+<otu label="Calotes calotes" id="Tl3173" about="#Tl3173"><meta xsi:type="nex:LiteralMeta" content="4567" id="ma7677" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="10986" id="ma7678" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/118093" xsi:type="nex:ResourceMeta" id="ma7679"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2537320" xsi:type="nex:ResourceMeta" id="ma7680"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7681"/></otu>
+<otu label="Japalura tricarinata" id="Tl3159" about="#Tl3159"><meta xsi:type="nex:LiteralMeta" content="14839" id="ma7683" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="34880" id="ma7684" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/118210" xsi:type="nex:ResourceMeta" id="ma7685"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2540651" xsi:type="nex:ResourceMeta" id="ma7686"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7687"/></otu>
+<otu label="Leiolepis belliana" id="Tl189424" about="#Tl189424"><meta xsi:type="nex:LiteralMeta" content="15505" id="ma7689" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="36395" id="ma7690" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52196" xsi:type="nex:ResourceMeta" id="ma7691"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2540984" xsi:type="nex:ResourceMeta" id="ma7692"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7693"/></otu>
+<otu label="Brookesia thieli" id="Tl189426" about="#Tl189426"><meta xsi:type="nex:LiteralMeta" content="4080" id="ma7695" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="9865" id="ma7696" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/179897" xsi:type="nex:ResourceMeta" id="ma7697"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2537156" xsi:type="nex:ResourceMeta" id="ma7698"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7699"/></otu>
+<otu label="Leiocephalus carinatus" id="Tl189393" about="#Tl189393"><meta xsi:type="nex:LiteralMeta" content="15497" id="ma7701" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="36377" id="ma7702" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/81825" xsi:type="nex:ResourceMeta" id="ma7703"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2540949" xsi:type="nex:ResourceMeta" id="ma7704"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7705"/></otu>
+<otu label="Anolis paternus" id="Tl189380" about="#Tl189380"><meta xsi:type="nex:LiteralMeta" content="1748" id="ma7707" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="4292" id="ma7708" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52189" xsi:type="nex:ResourceMeta" id="ma7709"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2536438" xsi:type="nex:ResourceMeta" id="ma7710"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7711"/></otu>
+<otu label="Basiliscus plumifrons" id="Tl189402" about="#Tl189402"><meta xsi:type="nex:LiteralMeta" content="3212" id="ma7713" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="7748" id="ma7714" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52191" xsi:type="nex:ResourceMeta" id="ma7715"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2536878" xsi:type="nex:ResourceMeta" id="ma7716"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7717"/></otu>
+<otu label="Ramphotyphlops braminus" id="Tl49217" about="#Tl49217"><meta xsi:type="nex:LiteralMeta" content="24786" id="ma7719" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="58064" id="ma7720" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/51846" xsi:type="nex:ResourceMeta" id="ma7721"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2544360" xsi:type="nex:ResourceMeta" id="ma7722"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7723"/></otu>
+<otu label="Dinodon sp." id="Tl49168" about="#Tl49168"><meta xsi:type="nex:LiteralMeta" content="42173" id="ma7725" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98369" id="ma7726" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/56548" xsi:type="nex:ResourceMeta" id="ma7727"/><meta xsi:type="nex:LiteralMeta" content="Dinodon" id="ma7728" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:210778" xsi:type="nex:ResourceMeta" id="ma7729"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7730"/></otu>
+<otu label="Cylindrophis ruffus" id="Tl8378" about="#Tl8378"><meta xsi:type="nex:LiteralMeta" content="7970" id="ma7732" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="19158" id="ma7733" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/186578" xsi:type="nex:ResourceMeta" id="ma7734"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2538585" xsi:type="nex:ResourceMeta" id="ma7735"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7736"/></otu>
+<otu label="Lanthanotus borneensis" id="Tl12301" about="#Tl12301"><meta xsi:type="nex:LiteralMeta" content="15292" id="ma7738" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="35914" id="ma7739" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/62058" xsi:type="nex:ResourceMeta" id="ma7740"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2540887" xsi:type="nex:ResourceMeta" id="ma7741"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7742"/></otu>
+<otu label="Varanus griseus" id="Tl12288" about="#Tl12288"><meta xsi:type="nex:LiteralMeta" content="30475" id="ma7744" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="71101" id="ma7745" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52184" xsi:type="nex:ResourceMeta" id="ma7746"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2546391" xsi:type="nex:ResourceMeta" id="ma7747"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7748"/></otu>
+<otu label="Xantusia vigilis" id="Tl189360" about="#Tl189360"><meta xsi:type="nex:LiteralMeta" content="31024" id="ma7750" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="72434" id="ma7751" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8547" xsi:type="nex:ResourceMeta" id="ma7752"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2546518" xsi:type="nex:ResourceMeta" id="ma7753"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7754"/></otu>
+<otu label="Eremias sp." id="Tl49195" about="#Tl49195"><meta xsi:type="nex:LiteralMeta" content="42174" id="ma7756" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98370" id="ma7757" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52178" xsi:type="nex:ResourceMeta" id="ma7758"/><meta xsi:type="nex:LiteralMeta" content="Eremias" id="ma7759" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:210977" xsi:type="nex:ResourceMeta" id="ma7760"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7761"/></otu>
+<otu label="Heloderma suspectum" id="Tl12290" about="#Tl12290"><meta xsi:type="nex:LiteralMeta" content="13229" id="ma7763" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="31255" id="ma7764" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8554" xsi:type="nex:ResourceMeta" id="ma7765"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2540275" xsi:type="nex:ResourceMeta" id="ma7766"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7767"/></otu>
+<otu label="Elgaria panamintina" id="Tl12940" about="#Tl12940"><meta xsi:type="nex:LiteralMeta" content="9927" id="ma7769" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="23748" id="ma7770" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52222" xsi:type="nex:ResourceMeta" id="ma7771"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2539363" xsi:type="nex:ResourceMeta" id="ma7772"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7773"/></otu>
+<otu label="Shinisaurus crocodilurus" id="Tl189425" about="#Tl189425"><meta xsi:type="nex:LiteralMeta" content="26868" id="ma7775" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="62722" id="ma7776" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52224" xsi:type="nex:ResourceMeta" id="ma7777"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2544878" xsi:type="nex:ResourceMeta" id="ma7778"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7779"/></otu>
+<otu label="Rhineura floridana" id="Tl49179" about="#Tl49179"><meta xsi:type="nex:LiteralMeta" content="25122" id="ma7781" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="58832" id="ma7782" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/261503" xsi:type="nex:ResourceMeta" id="ma7783"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2544514" xsi:type="nex:ResourceMeta" id="ma7784"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7785"/></otu>
+<otu label="Leposoma parietale" id="Tl49201" about="#Tl49201"><meta xsi:type="nex:LiteralMeta" content="15629" id="ma7787" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="36646" id="ma7788" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/302462" xsi:type="nex:ResourceMeta" id="ma7789"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2541081" xsi:type="nex:ResourceMeta" id="ma7790"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7791"/></otu>
+<otu label="Lialis jicari" id="Tl49186" about="#Tl49186"><meta xsi:type="nex:LiteralMeta" content="15888" id="ma7793" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="37240" id="ma7794" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52172" xsi:type="nex:ResourceMeta" id="ma7795"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2541366" xsi:type="nex:ResourceMeta" id="ma7796"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7797"/></otu>
+<otu label="Xenosaurus grandis" id="Tl12297" about="#Tl12297"><meta xsi:type="nex:LiteralMeta" content="31041" id="ma7799" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="72473" id="ma7800" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/52183" xsi:type="nex:ResourceMeta" id="ma7801"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2546556" xsi:type="nex:ResourceMeta" id="ma7802"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7803"/></otu>
+<otu label="Lepidosiren paradoxa" id="Tl49175" about="#Tl49175"><meta xsi:type="nex:LiteralMeta" content="42175" id="ma7805" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98371" id="ma7806" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/7883" xsi:type="nex:ResourceMeta" id="ma7807"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3857369" xsi:type="nex:ResourceMeta" id="ma7808"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7809"/></otu>
+<otu label="Latimeria menadoensis" id="Tl49184" about="#Tl49184"><meta xsi:type="nex:LiteralMeta" content="42176" id="ma7811" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98374" id="ma7812" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/106881" xsi:type="nex:ResourceMeta" id="ma7813"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2495220" xsi:type="nex:ResourceMeta" id="ma7814"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7815"/></otu>
+<otu label="Protopterus dolloi" id="Tl49204" about="#Tl49204"><meta xsi:type="nex:LiteralMeta" content="42177" id="ma7817" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98376" id="ma7818" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/27779" xsi:type="nex:ResourceMeta" id="ma7819"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2500029" xsi:type="nex:ResourceMeta" id="ma7820"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7821"/></otu>
+<otu label="Rhinatrema bivittatum" id="Tl49205" about="#Tl49205"><meta xsi:type="nex:LiteralMeta" content="42178" id="ma7823" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98378" id="ma7824" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/194408" xsi:type="nex:ResourceMeta" id="ma7825"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:31305" xsi:type="nex:ResourceMeta" id="ma7826"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7827"/></otu>
+<otu label="Ichthyophis glutinosus" id="Tl49187" about="#Tl49187"><meta xsi:type="nex:LiteralMeta" content="42179" id="ma7829" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98379" id="ma7830" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/194415" xsi:type="nex:ResourceMeta" id="ma7831"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:31275" xsi:type="nex:ResourceMeta" id="ma7832"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7833"/></otu>
+<otu label="Hypogeophis rostratus" id="Tl49189" about="#Tl49189"><meta xsi:type="nex:LiteralMeta" content="14158" id="ma7835" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="33350" id="ma7836" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8450" xsi:type="nex:ResourceMeta" id="ma7837"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:31220" xsi:type="nex:ResourceMeta" id="ma7838"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7839"/></otu>
+<otu label="Typhlonectes natans" id="Tl35752" about="#Tl35752"><meta xsi:type="nex:LiteralMeta" content="30140" id="ma7841" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="70384" id="ma7842" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8456" xsi:type="nex:ResourceMeta" id="ma7843"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:31258" xsi:type="nex:ResourceMeta" id="ma7844"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7845"/></otu>
+<otu label="Litoria ewingii" id="Tl49213" about="#Tl49213"><meta xsi:type="nex:LiteralMeta" content="42180" id="ma7847" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98380" id="ma7848" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/104896" xsi:type="nex:ResourceMeta" id="ma7849"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:27463" xsi:type="nex:ResourceMeta" id="ma7850"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7851"/></otu>
+<otu label="Xenopus laevis" id="Tl189375" about="#Tl189375"><meta xsi:type="nex:LiteralMeta" content="31035" id="ma7853" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="72461" id="ma7854" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8355" xsi:type="nex:ResourceMeta" id="ma7855"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2476402" xsi:type="nex:ResourceMeta" id="ma7856"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7857"/></otu>
+<otu label="Ambystoma mexicanum" id="Tl49206" about="#Tl49206"><meta xsi:type="nex:LiteralMeta" content="1181" id="ma7859" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="3100" id="ma7860" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8296" xsi:type="nex:ResourceMeta" id="ma7861"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2476440" xsi:type="nex:ResourceMeta" id="ma7862"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7863"/></otu>
+<otu label="Charadrius vociferus" id="Tl189407" about="#Tl189407"><meta xsi:type="nex:LiteralMeta" content="39739" id="ma7865" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="92143" id="ma7866" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/50402" xsi:type="nex:ResourceMeta" id="ma7867"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3851174" xsi:type="nex:ResourceMeta" id="ma7868"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7869"/></otu>
+<otu label="Spheniscus humboldti" id="Tl49199" about="#Tl49199"><meta xsi:type="nex:LiteralMeta" content="42181" id="ma7871" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98381" id="ma7872" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9240" xsi:type="nex:ResourceMeta" id="ma7873"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3851893" xsi:type="nex:ResourceMeta" id="ma7874"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7875"/></otu>
+<otu label="Gavia immer" id="Tl189370" about="#Tl189370"><meta xsi:type="nex:LiteralMeta" content="11778" id="ma7877" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="28060" id="ma7878" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/37039" xsi:type="nex:ResourceMeta" id="ma7879"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3851899" xsi:type="nex:ResourceMeta" id="ma7880"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7881"/></otu>
+<otu label="Anas strepera" id="Tl189411" about="#Tl189411"><meta xsi:type="nex:LiteralMeta" content="1403" id="ma7883" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="3523" id="ma7884" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/75861" xsi:type="nex:ResourceMeta" id="ma7885"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3854361" xsi:type="nex:ResourceMeta" id="ma7886"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7887"/></otu>
+<otu label="Megapodius freycinet" id="Tl189371" about="#Tl189371"><meta xsi:type="nex:LiteralMeta" content="42182" id="ma7889" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98383" id="ma7890" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8979" xsi:type="nex:ResourceMeta" id="ma7891"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3854711" xsi:type="nex:ResourceMeta" id="ma7892"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7893"/></otu>
+<otu label="Gallus gallus" id="Tl189398" about="#Tl189398"><meta xsi:type="nex:LiteralMeta" content="11706" id="ma7895" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="27872" id="ma7896" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9031" xsi:type="nex:ResourceMeta" id="ma7897"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3854553" xsi:type="nex:ResourceMeta" id="ma7898"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7899"/></otu>
+<otu label="Struthio camelus" id="Tl189434" about="#Tl189434"><meta xsi:type="nex:LiteralMeta" content="28139" id="ma7901" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="65669" id="ma7902" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8801" xsi:type="nex:ResourceMeta" id="ma7903"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3845394" xsi:type="nex:ResourceMeta" id="ma7904"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7905"/></otu>
+<otu label="Tinamus guttatus" id="Tl189418" about="#Tl189418"><meta xsi:type="nex:LiteralMeta" content="42183" id="ma7907" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98385" id="ma7908" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/94827" xsi:type="nex:ResourceMeta" id="ma7909"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3854719" xsi:type="nex:ResourceMeta" id="ma7910"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7911"/></otu>
+<otu label="Platysternon megacephalum" id="Tl189412" about="#Tl189412"><meta xsi:type="nex:LiteralMeta" content="42184" id="ma7913" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98387" id="ma7914" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/55544" xsi:type="nex:ResourceMeta" id="ma7915"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2543832" xsi:type="nex:ResourceMeta" id="ma7916"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7917"/></otu>
+<otu label="Dermatemys mawii" id="Tl49173" about="#Tl49173"><meta xsi:type="nex:LiteralMeta" content="42185" id="ma7919" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98389" id="ma7920" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/55550" xsi:type="nex:ResourceMeta" id="ma7921"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2538843" xsi:type="nex:ResourceMeta" id="ma7922"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7923"/></otu>
+<otu label="Geochelone pardalis" id="Tl49212" about="#Tl49212"><meta xsi:type="nex:LiteralMeta" content="426548" id="ma7925" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98393" id="ma7926" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Psammobates pardalis" id="ma7927" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/569598" xsi:type="nex:ResourceMeta" id="ma7928"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2539965" xsi:type="nex:ResourceMeta" id="ma7929"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7930"/></otu>
+<otu label="Elseya latisternum" id="Tl49211" about="#Tl49211"><meta xsi:type="nex:LiteralMeta" content="42187" id="ma7932" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98395" id="ma7933" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/44498" xsi:type="nex:ResourceMeta" id="ma7934"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2539371" xsi:type="nex:ResourceMeta" id="ma7935"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7936"/></otu>
+<otu label="Pelusios williamsi" id="Tl49197" about="#Tl49197"><meta xsi:type="nex:LiteralMeta" content="42188" id="ma7938" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98396" id="ma7939" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/55535" xsi:type="nex:ResourceMeta" id="ma7940"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2543406" xsi:type="nex:ResourceMeta" id="ma7941"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7942"/></otu>
+<otu label="Pleurodeles waltl" id="Tl8541" about="#Tl8541"><meta xsi:type="nex:LiteralMeta" content="22863" id="ma7944" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="53285" id="ma7945" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8319" xsi:type="nex:ResourceMeta" id="ma7946"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:31122" xsi:type="nex:ResourceMeta" id="ma7947"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7948"/></otu>
+<otu label="Elephas maximus" id="Tl189410" about="#Tl189410"><meta xsi:type="nex:LiteralMeta" content="9869" id="ma7950" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="23612" id="ma7951" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9783" xsi:type="nex:ResourceMeta" id="ma7952"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2481814" xsi:type="nex:ResourceMeta" id="ma7953"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7954"/></otu>
+<otu label="Mus musculus" id="Tl189428" about="#Tl189428"><meta xsi:type="nex:LiteralMeta" content="18305" id="ma7956" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="42783" id="ma7957" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/10090" xsi:type="nex:ResourceMeta" id="ma7958"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2481174" xsi:type="nex:ResourceMeta" id="ma7959"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7960"/></otu>
+<otu label="Apomys hylocoetes" id="Tl3043" about="#Tl3043"><meta xsi:type="nex:LiteralMeta" content="2060" id="ma7962" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="4933" id="ma7963" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/238004" xsi:type="nex:ResourceMeta" id="ma7964"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2480866" xsi:type="nex:ResourceMeta" id="ma7965"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7966"/></otu>
+<otu label="Podocnemis expansa" id="Tl49185" about="#Tl49185"><meta xsi:type="nex:LiteralMeta" content="42189" id="ma7968" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98400" id="ma7969" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/44507" xsi:type="nex:ResourceMeta" id="ma7970"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2547154" xsi:type="nex:ResourceMeta" id="ma7971"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7972"/></otu>
+<otu label="Chelonia mydas" id="Tl189387" about="#Tl189387"><meta xsi:type="nex:LiteralMeta" content="5762" id="ma7974" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="13990" id="ma7975" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8469" xsi:type="nex:ResourceMeta" id="ma7976"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2537643" xsi:type="nex:ResourceMeta" id="ma7977"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7978"/></otu>
+<otu label="Apalone spinifera" id="Tl49194" about="#Tl49194"><meta xsi:type="nex:LiteralMeta" content="42190" id="ma7980" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98401" id="ma7981" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/55534" xsi:type="nex:ResourceMeta" id="ma7982"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2536542" xsi:type="nex:ResourceMeta" id="ma7983"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7984"/></otu>
+<otu label="Lissemys punctata" id="Tl49190" about="#Tl49190"><meta xsi:type="nex:LiteralMeta" content="42191" id="ma7986" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98403" id="ma7987" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/55542" xsi:type="nex:ResourceMeta" id="ma7988"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2541696" xsi:type="nex:ResourceMeta" id="ma7989"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7990"/></otu>
+<otu label="Carettochelys insculpta" id="Tl49177" about="#Tl49177"><meta xsi:type="nex:LiteralMeta" content="42192" id="ma7992" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98406" id="ma7993" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/44489" xsi:type="nex:ResourceMeta" id="ma7994"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2537387" xsi:type="nex:ResourceMeta" id="ma7995"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma7996"/></otu>
+<otu label="Rattus norvegicus" id="Tl189399" about="#Tl189399"><meta xsi:type="nex:LiteralMeta" content="24889" id="ma7998" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="58300" id="ma7999" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/10116" xsi:type="nex:ResourceMeta" id="ma8000"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2481343" xsi:type="nex:ResourceMeta" id="ma8001"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8002"/></otu>
+<otu label="Lama glama" id="Tl34996" about="#Tl34996"><meta xsi:type="nex:LiteralMeta" content="15263" id="ma8004" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="35843" id="ma8005" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9844" xsi:type="nex:ResourceMeta" id="ma8006"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2478682" xsi:type="nex:ResourceMeta" id="ma8007"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8008"/></otu>
+<otu label="Sus scrofa" id="Tl189416" about="#Tl189416"><meta xsi:type="nex:LiteralMeta" content="28275" id="ma8010" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="65944" id="ma8011" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9823" xsi:type="nex:ResourceMeta" id="ma8012"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2478664" xsi:type="nex:ResourceMeta" id="ma8013"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8014"/></otu>
+<otu label="Oryctolagus cuniculus" id="Tl189391" about="#Tl189391"><meta xsi:type="nex:LiteralMeta" content="19975" id="ma8016" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="46477" id="ma8017" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9986" xsi:type="nex:ResourceMeta" id="ma8018"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2479927" xsi:type="nex:ResourceMeta" id="ma8019"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8020"/></otu>
+<otu label="Homo sapiens" id="Tl189376" about="#Tl189376"><meta xsi:type="nex:LiteralMeta" content="13680" id="ma8022" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="32274" id="ma8023" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9606" xsi:type="nex:ResourceMeta" id="ma8024"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2481730" xsi:type="nex:ResourceMeta" id="ma8025"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8026"/></otu>
+<otu label="Ornithorhynchus anatinus" id="Tl49169" about="#Tl49169"><meta xsi:type="nex:LiteralMeta" content="19864" id="ma8028" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="46214" id="ma8029" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9258" xsi:type="nex:ResourceMeta" id="ma8030"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2480055" xsi:type="nex:ResourceMeta" id="ma8031"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8032"/></otu>
+<otu label="Tachyglossus aculeatus" id="Tl49210" about="#Tl49210"><meta xsi:type="nex:LiteralMeta" content="42193" id="ma8034" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98409" id="ma8035" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9261" xsi:type="nex:ResourceMeta" id="ma8036"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2480050" xsi:type="nex:ResourceMeta" id="ma8037"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8038"/></otu>
+<otu label="Cercartetus concinnus" id="Tl49203" about="#Tl49203"><meta xsi:type="nex:LiteralMeta" content="5401" id="ma8040" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="13119" id="ma8041" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/190651" xsi:type="nex:ResourceMeta" id="ma8042"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2480295" xsi:type="nex:ResourceMeta" id="ma8043"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8044"/></otu>
+<otu label="Sarcophilus harrisii" id="Tl49216" about="#Tl49216"><meta xsi:type="nex:LiteralMeta" content="26139" id="ma8046" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98410" id="ma8047" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/9305" xsi:type="nex:ResourceMeta" id="ma8048"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:111751" xsi:type="nex:ResourceMeta" id="ma8049"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8050"/></otu>
+<otu label="Notoryctes typhlops" id="Tl49214" about="#Tl49214"><meta xsi:type="nex:LiteralMeta" content="19215" id="ma8052" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="44716" id="ma8053" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/37699" xsi:type="nex:ResourceMeta" id="ma8054"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2480173" xsi:type="nex:ResourceMeta" id="ma8055"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8056"/></otu>
+<otu label="Monodelphis domestica" id="Tl189406" about="#Tl189406"><meta xsi:type="nex:LiteralMeta" content="18030" id="ma8058" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="42180" id="ma8059" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Monodelphis domestica" id="ma8060" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/13616" xsi:type="nex:ResourceMeta" id="ma8061"/><meta xsi:type="nex:LiteralMeta" content="Monodelpis domestica" id="ma8062" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2827274" xsi:type="nex:ResourceMeta" id="ma8063"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8064"/></otu>
+<otu label="Sphenodon punctatus" id="Tl189395" about="#Tl189395"><meta xsi:type="nex:LiteralMeta" content="27562" id="ma8066" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="64357" id="ma8067" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/8508" xsi:type="nex:ResourceMeta" id="ma8068"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2545095" xsi:type="nex:ResourceMeta" id="ma8069"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8070"/></otu>
+<otu label="Crenadactylus ocellatus" id="Tl49174" about="#Tl49174"><meta xsi:type="nex:LiteralMeta" content="7448" id="ma8072" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="18030" id="ma8073" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/255196" xsi:type="nex:ResourceMeta" id="ma8074"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2538174" xsi:type="nex:ResourceMeta" id="ma8075"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8076"/></otu>
+<otu label="Gekko gecko" id="Tl49188" about="#Tl49188"><meta xsi:type="nex:LiteralMeta" content="11819" id="ma8078" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="28167" id="ma8079" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/36310" xsi:type="nex:ResourceMeta" id="ma8080"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2539913" xsi:type="nex:ResourceMeta" id="ma8081"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8082"/></otu>
+<otu label="Pseudothecadactylus lindneri" id="Tl49176" about="#Tl49176"><meta xsi:type="nex:LiteralMeta" content="24152" id="ma8084" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="56454" id="ma8085" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/95126" xsi:type="nex:ResourceMeta" id="ma8086"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:2544222" xsi:type="nex:ResourceMeta" id="ma8087"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8088"/></otu>
+<otu label="Zonosaurus sp." id="Tl49171" about="#Tl49171"><meta xsi:type="nex:LiteralMeta" content="31292" id="ma8090" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="73023" id="ma8091" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/143653" xsi:type="nex:ResourceMeta" id="ma8092"/><meta xsi:type="nex:LiteralMeta" content="Zonosaurus" id="ma8093" datatype="xsd:string" property="skos:altLabel"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:213007" xsi:type="nex:ResourceMeta" id="ma8094"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8095"/></otu>
+<otu label="Asymblepharus sikimmensis" id="Tl49218" about="#Tl49218"><meta xsi:type="nex:LiteralMeta" content="42194" id="ma8097" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="98411" id="ma8098" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/273661" xsi:type="nex:ResourceMeta" id="ma8099"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:5978335" xsi:type="nex:ResourceMeta" id="ma8100"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8101"/></otu></otus><trees otus="Tls13052" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:" id="trees54688" about="#trees54688"><meta xsi:type="nex:LiteralMeta" content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@56e2be20 $Rev: 1040 $" id="ma8103" datatype="xsd:string" property="skos:historyNote"/>
+<tree xsi:type="nex:IntTree" label="nuc MCMC con" id="Tr2784" about="#Tr2784"><meta xsi:type="nex:LiteralMeta" content="88" id="ma8105" datatype="xsd:integer" property="tb:ntax.tree"/><meta xsi:type="nex:LiteralMeta" content="Unrated" id="ma8106" datatype="xsd:string" property="tb:quality.tree"/><meta xsi:type="nex:LiteralMeta" content="Consensus" id="ma8107" datatype="xsd:string" property="tb:type.tree"/><meta xsi:type="nex:LiteralMeta" content="Species Tree" id="ma8108" datatype="xsd:string" property="tb:kind.tree"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S1808" xsi:type="nex:ResourceMeta" id="ma8109"/>
+<node root="true" id="Tn191731" about="#Tn191731"/>
+<node id="Tn191889" about="#Tn191889"/>
+<node id="Tn191777" about="#Tn191777"/>
+<node label="Latimeria menadoensis" id="Tn191726" about="#Tn191726" otu="Tl49184"/>
+<node id="Tn191725" about="#Tn191725"/>
+<node id="Tn191887" about="#Tn191887"/>
+<node label="Protopterus dolloi" id="Tn191738" about="#Tn191738" otu="Tl49204"/>
+<node label="Lepidosiren paradoxa" id="Tn191781" about="#Tn191781" otu="Tl49175"/>
+<node id="Tn191803" about="#Tn191803"/>
+<node id="Tn191812" about="#Tn191812"/>
+<node id="Tn191869" about="#Tn191869"/>
+<node id="Tn191860" about="#Tn191860"/>
+<node id="Tn191762" about="#Tn191762"/>
+<node id="Tn191768" about="#Tn191768"/>
+<node id="Tn191845" about="#Tn191845"/>
+<node id="Tn191764" about="#Tn191764"/>
+<node id="Tn191836" about="#Tn191836"/>
+<node id="Tn191802" about="#Tn191802"/>
+<node label="Ichthyophis glutinosus" id="Tn191719" about="#Tn191719" otu="Tl49187"/>
+<node id="Tn191822" about="#Tn191822"/>
+<node id="Tn191775" about="#Tn191775"/>
+<node id="Tn191800" about="#Tn191800"/>
+<node label="Tachyglossus aculeatus" id="Tn191885" about="#Tn191885" otu="Tl49210"/>
+<node label="Ornithorhynchus anatinus" id="Tn191759" about="#Tn191759" otu="Tl49169"/>
+<node label="Sphenodon punctatus" id="Tn191831" about="#Tn191831" otu="Tl189395"/>
+<node id="Tn191755" about="#Tn191755"/>
+<node id="Tn191771" about="#Tn191771"/>
+<node id="Tn191826" about="#Tn191826"/>
+<node label="Pleurodeles waltl" id="Tn191859" about="#Tn191859" otu="Tl8541"/>
+<node label="Ambystoma mexicanum" id="Tn191747" about="#Tn191747" otu="Tl49206"/>
+<node label="Xenopus laevis" id="Tn191819" about="#Tn191819" otu="Tl189375"/>
+<node label="Litoria ewingii" id="Tn191863" about="#Tn191863" otu="Tl49213"/>
+<node label="Rhinatrema bivittatum" id="Tn191875" about="#Tn191875" otu="Tl49205"/>
+<node id="Tn191734" about="#Tn191734"/>
+<node label="Monodelphis domestica" id="Tn191851" about="#Tn191851" otu="Tl189406"/>
+<node id="Tn191723" about="#Tn191723"/>
+<node id="Tn191862" about="#Tn191862"/>
+<node id="Tn191735" about="#Tn191735"/>
+<node id="Tn191815" about="#Tn191815"/>
+<node id="Tn191743" about="#Tn191743"/>
+<node id="Tn191741" about="#Tn191741"/>
+<node id="Tn191882" about="#Tn191882"/>
+<node id="Tn191881" about="#Tn191881"/>
+<node id="Tn191791" about="#Tn191791"/>
+<node label="Typhlonectes natans" id="Tn191765" about="#Tn191765" otu="Tl35752"/>
+<node label="Hypogeophis rostratus" id="Tn191847" about="#Tn191847" otu="Tl49189"/>
+<node label="Sarcophilus harrisii" id="Tn191785" about="#Tn191785" otu="Tl49216"/>
+<node id="Tn191721" about="#Tn191721"/>
+<node label="Elephas maximus" id="Tn191728" about="#Tn191728" otu="Tl189410"/>
+<node id="Tn191848" about="#Tn191848"/>
+<node label="Sus scrofa" id="Tn191856" about="#Tn191856" otu="Tl189416"/>
+<node label="Lama glama" id="Tn191849" about="#Tn191849" otu="Tl34996"/>
+<node label="Dibamus sp." id="Tn191816" about="#Tn191816" otu="Tl189417"/>
+<node id="Tn191838" about="#Tn191838"/>
+<node label="Gekko gecko" id="Tn191850" about="#Tn191850" otu="Tl49188"/>
+<node id="Tn191724" about="#Tn191724"/>
+<node id="Tn191757" about="#Tn191757"/>
+<node id="Tn191884" about="#Tn191884"/>
+<node label="Elseya latisternum" id="Tn191730" about="#Tn191730" otu="Tl49211"/>
+<node id="Tn191761" about="#Tn191761"/>
+<node id="Tn191805" about="#Tn191805"/>
+<node id="Tn191772" about="#Tn191772"/>
+<node id="Tn191853" about="#Tn191853"/>
+<node id="Tn191870" about="#Tn191870"/>
+<node label="Notoryctes typhlops" id="Tn191871" about="#Tn191871" otu="Tl49214"/>
+<node label="Cercartetus concinnus" id="Tn191766" about="#Tn191766" otu="Tl49203"/>
+<node label="Homo sapiens" id="Tn191804" about="#Tn191804" otu="Tl189376"/>
+<node id="Tn191842" about="#Tn191842"/>
+<node id="Tn191823" about="#Tn191823"/>
+<node id="Tn191810" about="#Tn191810"/>
+<node label="Lialis jicari" id="Tn191748" about="#Tn191748" otu="Tl49186"/>
+<node id="Tn191814" about="#Tn191814"/>
+<node label="Carettochelys insculpta" id="Tn191797" about="#Tn191797" otu="Tl49177"/>
+<node id="Tn191793" about="#Tn191793"/>
+<node id="Tn191839" about="#Tn191839"/>
+<node id="Tn191732" about="#Tn191732"/>
+<node label="Podocnemis expansa" id="Tn191841" about="#Tn191841" otu="Tl49185"/>
+<node label="Pelusios williamsi" id="Tn191782" about="#Tn191782" otu="Tl49197"/>
+<node id="Tn191789" about="#Tn191789"/>
+<node id="Tn191745" about="#Tn191745"/>
+<node label="Tinamus guttatus" id="Tn191799" about="#Tn191799" otu="Tl189418"/>
+<node label="Struthio camelus" id="Tn191753" about="#Tn191753" otu="Tl189434"/>
+<node label="Alligator mississipiensis" id="Tn191821" about="#Tn191821" otu="Tl49182"/>
+<node label="Caiman latirostris" id="Tn191835" about="#Tn191835" otu="Tl49193"/>
+<node label="Crocodylus cataphractus" id="Tn191807" about="#Tn191807" otu="Tl13898"/>
+<node id="Tn191744" about="#Tn191744"/>
+<node label="Oryctolagus cuniculus" id="Tn191783" about="#Tn191783" otu="Tl189391"/>
+<node id="Tn191866" about="#Tn191866"/>
+<node id="Tn191729" about="#Tn191729"/>
+<node id="Tn191873" about="#Tn191873"/>
+<node id="Tn191832" about="#Tn191832"/>
+<node id="Tn191798" about="#Tn191798"/>
+<node label="Pseudothecadactylus lindneri" id="Tn191827" about="#Tn191827" otu="Tl49176"/>
+<node label="Crenadactylus ocellatus" id="Tn191795" about="#Tn191795" otu="Tl49174"/>
+<node label="Lissemys punctata" id="Tn191878" about="#Tn191878" otu="Tl49190"/>
+<node label="Apalone spinifera" id="Tn191861" about="#Tn191861" otu="Tl49194"/>
+<node label="Chelonia mydas" id="Tn191754" about="#Tn191754" otu="Tl189387"/>
+<node label="Dermatemys mawii" id="Tn191813" about="#Tn191813" otu="Tl49173"/>
+<node label="Geochelone pardalis" id="Tn191829" about="#Tn191829" otu="Tl49212"/>
+<node label="Platysternon megacephalum" id="Tn191824" about="#Tn191824" otu="Tl189412"/>
+<node label="Anas strepera" id="Tn191727" about="#Tn191727" otu="Tl189411"/>
+<node id="Tn191742" about="#Tn191742"/>
+<node id="Tn191718" about="#Tn191718"/>
+<node id="Tn191857" about="#Tn191857"/>
+<node label="Gavialis gangeticus" id="Tn191852" about="#Tn191852" otu="Tl189357"/>
+<node label="Tomistoma schlegelii" id="Tn191773" about="#Tn191773" otu="Tl13899"/>
+<node label="Rattus norvegicus" id="Tn191767" about="#Tn191767" otu="Tl189399"/>
+<node id="Tn191751" about="#Tn191751"/>
+<node id="Tn191818" about="#Tn191818"/>
+<node id="Tn191784" about="#Tn191784"/>
+<node id="Tn191720" about="#Tn191720"/>
+<node id="Tn191825" about="#Tn191825"/>
+<node label="Xantusia vigilis" id="Tn191770" about="#Tn191770" otu="Tl189360"/>
+<node label="Zonosaurus sp." id="Tn191763" about="#Tn191763" otu="Tl49171"/>
+<node label="Typhlosaurus lomii" id="Tn191840" about="#Tn191840" otu="Tl49219"/>
+<node id="Tn191883" about="#Tn191883"/>
+<node label="Gallus gallus" id="Tn191890" about="#Tn191890" otu="Tl189398"/>
+<node label="Megapodius freycinet" id="Tn191780" about="#Tn191780" otu="Tl189371"/>
+<node label="Gavia immer" id="Tn191739" about="#Tn191739" otu="Tl189370"/>
+<node label="Charadrius vociferus" id="Tn191746" about="#Tn191746" otu="Tl189407"/>
+<node id="Tn191888" about="#Tn191888"/>
+<node id="Tn191808" about="#Tn191808"/>
+<node label="Apomys hylocoetes" id="Tn191749" about="#Tn191749" otu="Tl3043"/>
+<node label="Mus musculus" id="Tn191758" about="#Tn191758" otu="Tl189428"/>
+<node id="Tn191778" about="#Tn191778"/>
+<node id="Tn191833" about="#Tn191833"/>
+<node id="Tn191868" about="#Tn191868"/>
+<node id="Tn191830" about="#Tn191830"/>
+<node label="Leposoma parietale" id="Tn191880" about="#Tn191880" otu="Tl49201"/>
+<node label="Aspidoscelis tigris" id="Tn191740" about="#Tn191740" otu="Tl49196"/>
+<node label="Eremias sp." id="Tn191891" about="#Tn191891" otu="Tl49195"/>
+<node id="Tn191886" about="#Tn191886"/>
+<node label="Eumeces anthracinus" id="Tn191806" about="#Tn191806" otu="Tl49183"/>
+<node id="Tn191865" about="#Tn191865"/>
+<node label="Spheniscus humboldti" id="Tn191864" about="#Tn191864" otu="Tl49199"/>
+<node label="Grus canadensis" id="Tn191792" about="#Tn191792" otu="Tl189355"/>
+<node label="Coracias caudata" id="Tn191736" about="#Tn191736" otu="Tl189363"/>
+<node label="Passer montanus" id="Tn191854" about="#Tn191854" otu="Tl189394"/>
+<node id="Tn191817" about="#Tn191817"/>
+<node id="Tn191769" about="#Tn191769"/>
+<node label="Ramphotyphlops braminus" id="Tn191844" about="#Tn191844" otu="Tl49217"/>
+<node id="Tn191846" about="#Tn191846"/>
+<node label="Leiocephalus carinatus" id="Tn191867" about="#Tn191867" otu="Tl189393"/>
+<node id="Tn191750" about="#Tn191750"/>
+<node label="Leiolepis belliana" id="Tn191834" about="#Tn191834" otu="Tl189424"/>
+<node id="Tn191828" about="#Tn191828"/>
+<node label="Rhineura floridana" id="Tn191779" about="#Tn191779" otu="Tl49179"/>
+<node label="Bipes biporus" id="Tn191776" about="#Tn191776" otu="Tl49202"/>
+<node label="Euprepis auratus" id="Tn191801" about="#Tn191801" otu="Tl49178"/>
+<node id="Tn191788" about="#Tn191788"/>
+<node label="Xenosaurus grandis" id="Tn191790" about="#Tn191790" otu="Tl12297"/>
+<node id="Tn191877" about="#Tn191877"/>
+<node label="Shinisaurus crocodilurus" id="Tn191733" about="#Tn191733" otu="Tl189425"/>
+<node id="Tn191774" about="#Tn191774"/>
+<node label="Cylindrophis ruffus" id="Tn191843" about="#Tn191843" otu="Tl8378"/>
+<node label="Dinodon sp." id="Tn191879" about="#Tn191879" otu="Tl49168"/>
+<node label="Basiliscus plumifrons" id="Tn191737" about="#Tn191737" otu="Tl189402"/>
+<node label="Anolis paternus" id="Tn191752" about="#Tn191752" otu="Tl189380"/>
+<node id="Tn191756" about="#Tn191756"/>
+<node id="Tn191811" about="#Tn191811"/>
+<node label="Ctenotus robustus" id="Tn191760" about="#Tn191760" otu="Tl49208"/>
+<node label="Asymblepharus sikimmensis" id="Tn191820" about="#Tn191820" otu="Tl49218"/>
+<node label="Elgaria panamintina" id="Tn191872" about="#Tn191872" otu="Tl12940"/>
+<node label="Heloderma suspectum" id="Tn191874" about="#Tn191874" otu="Tl12290"/>
+<node label="Varanus griseus" id="Tn191858" about="#Tn191858" otu="Tl12288"/>
+<node label="Lanthanotus borneensis" id="Tn191855" about="#Tn191855" otu="Tl12301"/>
+<node label="Brookesia thieli" id="Tn191837" about="#Tn191837" otu="Tl189426"/>
+<node label="Chamaeleo rudis" id="Tn191809" about="#Tn191809" otu="Tl49207"/>
+<node id="Tn191794" about="#Tn191794"/>
+<node id="Tn191787" about="#Tn191787"/>
+<node label="Japalura tricarinata" id="Tn191786" about="#Tn191786" otu="Tl3159"/>
+<node label="Calotes calotes" id="Tn191796" about="#Tn191796" otu="Tl3173"/>
+<node label="Physignathus cocincinus" id="Tn191722" about="#Tn191722" otu="Tl189421"/>
+<node label="Ctenophorus salinarum" id="Tn191876" about="#Tn191876" otu="Tl12321"/>
+<edge source="Tn191731" target="Tn191889" id="edge8111"/>
+<edge source="Tn191731" target="Tn191777" id="edge8280"/>
+<edge source="Tn191731" target="Tn191726" id="edge8283"/>
+<edge source="Tn191889" target="Tn191725" id="edge8112"/>
+<edge source="Tn191889" target="Tn191887" id="edge8265"/>
+<edge source="Tn191777" target="Tn191738" id="edge8281"/>
+<edge source="Tn191777" target="Tn191781" id="edge8282"/>
+<edge source="Tn191725" target="Tn191803" id="edge8113"/>
+<edge source="Tn191725" target="Tn191812" id="edge8140"/>
+<edge source="Tn191887" target="Tn191869" id="edge8266"/>
+<edge source="Tn191887" target="Tn191860" id="edge8273"/>
+<edge source="Tn191803" target="Tn191762" id="edge8114"/>
+<edge source="Tn191803" target="Tn191768" id="edge8137"/>
+<edge source="Tn191812" target="Tn191845" id="edge8141"/>
+<edge source="Tn191812" target="Tn191764" id="edge8214"/>
+<edge source="Tn191869" target="Tn191836" id="edge8267"/>
+<edge source="Tn191869" target="Tn191802" id="edge8270"/>
+<edge source="Tn191860" target="Tn191719" id="edge8274"/>
+<edge source="Tn191860" target="Tn191822" id="edge8275"/>
+<edge source="Tn191762" target="Tn191775" id="edge8115"/>
+<edge source="Tn191762" target="Tn191800" id="edge8122"/>
+<edge source="Tn191768" target="Tn191885" id="edge8138"/>
+<edge source="Tn191768" target="Tn191759" id="edge8139"/>
+<edge source="Tn191845" target="Tn191831" id="edge8142"/>
+<edge source="Tn191845" target="Tn191755" id="edge8143"/>
+<edge source="Tn191764" target="Tn191771" id="edge8215"/>
+<edge source="Tn191764" target="Tn191826" id="edge8234"/>
+<edge source="Tn191836" target="Tn191859" id="edge8268"/>
+<edge source="Tn191836" target="Tn191747" id="edge8269"/>
+<edge source="Tn191802" target="Tn191819" id="edge8271"/>
+<edge source="Tn191802" target="Tn191863" id="edge8272"/>
+<edge source="Tn191822" target="Tn191875" id="edge8276"/>
+<edge source="Tn191822" target="Tn191734" id="edge8277"/>
+<edge source="Tn191775" target="Tn191851" id="edge8116"/>
+<edge source="Tn191775" target="Tn191723" id="edge8117"/>
+<edge source="Tn191800" target="Tn191862" id="edge8123"/>
+<edge source="Tn191800" target="Tn191735" id="edge8134"/>
+<edge source="Tn191755" target="Tn191815" id="edge8144"/>
+<edge source="Tn191755" target="Tn191743" id="edge8207"/>
+<edge source="Tn191771" target="Tn191741" id="edge8216"/>
+<edge source="Tn191771" target="Tn191882" id="edge8229"/>
+<edge source="Tn191826" target="Tn191881" id="edge8235"/>
+<edge source="Tn191826" target="Tn191791" id="edge8256"/>
+<edge source="Tn191734" target="Tn191765" id="edge8278"/>
+<edge source="Tn191734" target="Tn191847" id="edge8279"/>
+<edge source="Tn191723" target="Tn191785" id="edge8118"/>
+<edge source="Tn191723" target="Tn191721" id="edge8119"/>
+<edge source="Tn191862" target="Tn191728" id="edge8124"/>
+<edge source="Tn191862" target="Tn191848" id="edge8125"/>
+<edge source="Tn191735" target="Tn191856" id="edge8135"/>
+<edge source="Tn191735" target="Tn191849" id="edge8136"/>
+<edge source="Tn191815" target="Tn191816" id="edge8145"/>
+<edge source="Tn191815" target="Tn191838" id="edge8146"/>
+<edge source="Tn191743" target="Tn191850" id="edge8208"/>
+<edge source="Tn191743" target="Tn191724" id="edge8209"/>
+<edge source="Tn191741" target="Tn191757" id="edge8217"/>
+<edge source="Tn191741" target="Tn191884" id="edge8222"/>
+<edge source="Tn191882" target="Tn191730" id="edge8230"/>
+<edge source="Tn191882" target="Tn191761" id="edge8231"/>
+<edge source="Tn191881" target="Tn191805" id="edge8236"/>
+<edge source="Tn191881" target="Tn191772" id="edge8253"/>
+<edge source="Tn191791" target="Tn191853" id="edge8257"/>
+<edge source="Tn191791" target="Tn191870" id="edge8260"/>
+<edge source="Tn191721" target="Tn191871" id="edge8120"/>
+<edge source="Tn191721" target="Tn191766" id="edge8121"/>
+<edge source="Tn191848" target="Tn191804" id="edge8126"/>
+<edge source="Tn191848" target="Tn191842" id="edge8127"/>
+<edge source="Tn191838" target="Tn191823" id="edge8147"/>
+<edge source="Tn191838" target="Tn191810" id="edge8194"/>
+<edge source="Tn191724" target="Tn191748" id="edge8210"/>
+<edge source="Tn191724" target="Tn191814" id="edge8211"/>
+<edge source="Tn191757" target="Tn191797" id="edge8218"/>
+<edge source="Tn191757" target="Tn191793" id="edge8219"/>
+<edge source="Tn191884" target="Tn191839" id="edge8223"/>
+<edge source="Tn191884" target="Tn191732" id="edge8226"/>
+<edge source="Tn191761" target="Tn191841" id="edge8232"/>
+<edge source="Tn191761" target="Tn191782" id="edge8233"/>
+<edge source="Tn191805" target="Tn191789" id="edge8237"/>
+<edge source="Tn191805" target="Tn191745" id="edge8242"/>
+<edge source="Tn191772" target="Tn191799" id="edge8254"/>
+<edge source="Tn191772" target="Tn191753" id="edge8255"/>
+<edge source="Tn191853" target="Tn191821" id="edge8258"/>
+<edge source="Tn191853" target="Tn191835" id="edge8259"/>
+<edge source="Tn191870" target="Tn191807" id="edge8261"/>
+<edge source="Tn191870" target="Tn191744" id="edge8262"/>
+<edge source="Tn191842" target="Tn191783" id="edge8128"/>
+<edge source="Tn191842" target="Tn191866" id="edge8129"/>
+<edge source="Tn191823" target="Tn191729" id="edge8148"/>
+<edge source="Tn191823" target="Tn191873" id="edge8185"/>
+<edge source="Tn191810" target="Tn191832" id="edge8195"/>
+<edge source="Tn191810" target="Tn191798" id="edge8198"/>
+<edge source="Tn191814" target="Tn191827" id="edge8212"/>
+<edge source="Tn191814" target="Tn191795" id="edge8213"/>
+<edge source="Tn191793" target="Tn191878" id="edge8220"/>
+<edge source="Tn191793" target="Tn191861" id="edge8221"/>
+<edge source="Tn191839" target="Tn191754" id="edge8224"/>
+<edge source="Tn191839" target="Tn191813" id="edge8225"/>
+<edge source="Tn191732" target="Tn191829" id="edge8227"/>
+<edge source="Tn191732" target="Tn191824" id="edge8228"/>
+<edge source="Tn191789" target="Tn191727" id="edge8238"/>
+<edge source="Tn191789" target="Tn191742" id="edge8239"/>
+<edge source="Tn191745" target="Tn191718" id="edge8243"/>
+<edge source="Tn191745" target="Tn191857" id="edge8246"/>
+<edge source="Tn191744" target="Tn191852" id="edge8263"/>
+<edge source="Tn191744" target="Tn191773" id="edge8264"/>
+<edge source="Tn191866" target="Tn191767" id="edge8130"/>
+<edge source="Tn191866" target="Tn191751" id="edge8131"/>
+<edge source="Tn191729" target="Tn191818" id="edge8149"/>
+<edge source="Tn191729" target="Tn191784" id="edge8166"/>
+<edge source="Tn191873" target="Tn191720" id="edge8186"/>
+<edge source="Tn191873" target="Tn191825" id="edge8189"/>
+<edge source="Tn191832" target="Tn191770" id="edge8196"/>
+<edge source="Tn191832" target="Tn191763" id="edge8197"/>
+<edge source="Tn191798" target="Tn191840" id="edge8199"/>
+<edge source="Tn191798" target="Tn191883" id="edge8200"/>
+<edge source="Tn191742" target="Tn191890" id="edge8240"/>
+<edge source="Tn191742" target="Tn191780" id="edge8241"/>
+<edge source="Tn191718" target="Tn191739" id="edge8244"/>
+<edge source="Tn191718" target="Tn191746" id="edge8245"/>
+<edge source="Tn191857" target="Tn191888" id="edge8247"/>
+<edge source="Tn191857" target="Tn191808" id="edge8250"/>
+<edge source="Tn191751" target="Tn191749" id="edge8132"/>
+<edge source="Tn191751" target="Tn191758" id="edge8133"/>
+<edge source="Tn191818" target="Tn191778" id="edge8150"/>
+<edge source="Tn191818" target="Tn191833" id="edge8161"/>
+<edge source="Tn191784" target="Tn191868" id="edge8167"/>
+<edge source="Tn191784" target="Tn191830" id="edge8172"/>
+<edge source="Tn191720" target="Tn191880" id="edge8187"/>
+<edge source="Tn191720" target="Tn191740" id="edge8188"/>
+<edge source="Tn191825" target="Tn191891" id="edge8190"/>
+<edge source="Tn191825" target="Tn191886" id="edge8191"/>
+<edge source="Tn191883" target="Tn191806" id="edge8201"/>
+<edge source="Tn191883" target="Tn191865" id="edge8202"/>
+<edge source="Tn191888" target="Tn191864" id="edge8248"/>
+<edge source="Tn191888" target="Tn191792" id="edge8249"/>
+<edge source="Tn191808" target="Tn191736" id="edge8251"/>
+<edge source="Tn191808" target="Tn191854" id="edge8252"/>
+<edge source="Tn191778" target="Tn191817" id="edge8151"/>
+<edge source="Tn191778" target="Tn191769" id="edge8156"/>
+<edge source="Tn191833" target="Tn191844" id="edge8162"/>
+<edge source="Tn191833" target="Tn191846" id="edge8163"/>
+<edge source="Tn191868" target="Tn191867" id="edge8168"/>
+<edge source="Tn191868" target="Tn191750" id="edge8169"/>
+<edge source="Tn191830" target="Tn191834" id="edge8173"/>
+<edge source="Tn191830" target="Tn191828" id="edge8174"/>
+<edge source="Tn191886" target="Tn191779" id="edge8192"/>
+<edge source="Tn191886" target="Tn191776" id="edge8193"/>
+<edge source="Tn191865" target="Tn191801" id="edge8203"/>
+<edge source="Tn191865" target="Tn191788" id="edge8204"/>
+<edge source="Tn191817" target="Tn191790" id="edge8152"/>
+<edge source="Tn191817" target="Tn191877" id="edge8153"/>
+<edge source="Tn191769" target="Tn191733" id="edge8157"/>
+<edge source="Tn191769" target="Tn191774" id="edge8158"/>
+<edge source="Tn191846" target="Tn191843" id="edge8164"/>
+<edge source="Tn191846" target="Tn191879" id="edge8165"/>
+<edge source="Tn191750" target="Tn191737" id="edge8170"/>
+<edge source="Tn191750" target="Tn191752" id="edge8171"/>
+<edge source="Tn191828" target="Tn191756" id="edge8175"/>
+<edge source="Tn191828" target="Tn191811" id="edge8178"/>
+<edge source="Tn191788" target="Tn191760" id="edge8205"/>
+<edge source="Tn191788" target="Tn191820" id="edge8206"/>
+<edge source="Tn191877" target="Tn191872" id="edge8154"/>
+<edge source="Tn191877" target="Tn191874" id="edge8155"/>
+<edge source="Tn191774" target="Tn191858" id="edge8159"/>
+<edge source="Tn191774" target="Tn191855" id="edge8160"/>
+<edge source="Tn191756" target="Tn191837" id="edge8176"/>
+<edge source="Tn191756" target="Tn191809" id="edge8177"/>
+<edge source="Tn191811" target="Tn191794" id="edge8179"/>
+<edge source="Tn191811" target="Tn191787" id="edge8182"/>
+<edge source="Tn191794" target="Tn191786" id="edge8180"/>
+<edge source="Tn191794" target="Tn191796" id="edge8181"/>
+<edge source="Tn191787" target="Tn191722" id="edge8183"/>
+<edge source="Tn191787" target="Tn191876" id="edge8184"/></tree></trees></nex:nexml>

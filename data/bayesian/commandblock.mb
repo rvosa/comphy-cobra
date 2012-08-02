@@ -1,0 +1,9 @@
+begin mrbayes;
+	set autoclose=yes nowarn=yes;
+	lset nst=6 rates=invgamma;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all); 
+	prset applyto=(all) ratepr=variable;
+	mcmcp ngen=2000000 relburnin=yes burninfrac=0.1  printfreq=1000  samplefreq=1000 nchains=4 savebrlens=yes;
+	mcmc;
+	sumt;
+end;

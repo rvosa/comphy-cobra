@@ -1,0 +1,44 @@
+<nex:nexml xmlns="http://www.nexml.org/2009" version="0.9" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xsi:schemaLocation="http://www.nexml.org/2009 http://www.nexml.org/2009/nexml.xsd" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" generator="Bio::Phylo::Project v.0.46_1660" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:nex="http://www.nexml.org/2009" xmlns:tb="http://purl.org/phylo/treebase/2.0/terms#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" about="#nl103845" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><meta xsi:type="nex:LiteralMeta" content="rvosa" id="ma103911" datatype="xsd:string" property="dc:creator"/><meta xsi:type="nex:LiteralMeta" content="2012-03-15T16:30:22" id="ma103912" datatype="xsd:date" property="dc:date"/><otus xml:base="http://purl.org/phylo/treebase/phylows/taxon/TB2:" label="TaxonLabelSet9720" id="Tls9720" about="#Tls9720"><meta xsi:type="nex:LiteralMeta" content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlOTUWriter@5606b141 $Rev: 1040 $" id="ma103847" datatype="xsd:string" property="skos:historyNote"/>
+<otu label="Poephila bichenovii" id="Tl29473" about="#Tl29473"><meta xsi:type="nex:LiteralMeta" content="23086" id="ma103849" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="53968" id="ma103850" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:13550" xsi:type="nex:ResourceMeta" id="ma103851"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103852"/></otu>
+<otu label="Poephila annulosa" id="Tl29469" about="#Tl29469"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103854"/></otu>
+<otu label="Poephila guttata" id="Tl29468" about="#Tl29468"><meta xsi:type="nex:LiteralMeta" content="23088" id="ma103856" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="53972" id="ma103857" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta xsi:type="nex:LiteralMeta" content="Taeniopygia guttata" id="ma103858" datatype="xsd:string" property="skos:prefLabel"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/59729" xsi:type="nex:ResourceMeta" id="ma103859"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:13549" xsi:type="nex:ResourceMeta" id="ma103860"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103861"/></otu>
+<otu label="Poephila personata" id="Tl29465" about="#Tl29465"><meta xsi:type="nex:LiteralMeta" content="23089" id="ma103863" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="53973" id="ma103864" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3849885" xsi:type="nex:ResourceMeta" id="ma103865"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103866"/></otu>
+<otu label="Poephila leucotis" id="Tl29472" about="#Tl29472"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103868"/></otu>
+<otu label="Poephila hecki" id="Tl29466" about="#Tl29466"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103870"/></otu>
+<otu label="Poephila acuticauda" id="Tl29467" about="#Tl29467"><meta xsi:type="nex:LiteralMeta" content="23085" id="ma103872" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="53967" id="ma103873" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/259256" xsi:type="nex:ResourceMeta" id="ma103874"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3849886" xsi:type="nex:ResourceMeta" id="ma103875"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103876"/></otu>
+<otu label="Poephila atropygialis" id="Tl29471" about="#Tl29471"><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103878"/></otu>
+<otu label="Poephila cincta" id="Tl29470" about="#Tl29470"><meta xsi:type="nex:LiteralMeta" content="23087" id="ma103880" datatype="xsd:integer" property="tb:identifier.taxon"/><meta xsi:type="nex:LiteralMeta" content="53970" id="ma103881" datatype="xsd:integer" property="tb:identifier.taxonVariant"/><meta rel="skos:closeMatch" href="http://purl.uniprot.org/taxonomy/247741" xsi:type="nex:ResourceMeta" id="ma103882"/><meta rel="skos:closeMatch" href="http://www.ubio.org/authority/metadata.php?lsid=urn:lsid:ubio.org:namebank:3849887" xsi:type="nex:ResourceMeta" id="ma103883"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103884"/></otu></otus><trees otus="Tls9720" xml:base="http://purl.org/phylo/treebase/phylows/tree/TB2:" id="trees148890" about="#trees148890"><meta xsi:type="nex:LiteralMeta" content="Mapped from TreeBASE schema using org.cipres.treebase.domain.nexus.nexml.NexmlTreeBlockWriter@6732b634 $Rev: 1040 $" id="ma103886" datatype="xsd:string" property="skos:historyNote"/>
+<tree xsi:type="nex:IntTree" label="Fig. 1" id="Tr1450" about="#Tr1450"><meta xsi:type="nex:LiteralMeta" content="9" id="ma103888" datatype="xsd:integer" property="tb:ntax.tree"/><meta xsi:type="nex:LiteralMeta" content="Unrated" id="ma103889" datatype="xsd:string" property="tb:quality.tree"/><meta xsi:type="nex:LiteralMeta" content="Single" id="ma103890" datatype="xsd:string" property="tb:type.tree"/><meta xsi:type="nex:LiteralMeta" content="Species Tree" id="ma103891" datatype="xsd:string" property="tb:kind.tree"/><meta rel="rdfs:isDefinedBy" href="http://purl.org/phylo/treebase/phylows/study/TB2:S312" xsi:type="nex:ResourceMeta" id="ma103892"/>
+<node root="true" label="Poephila" id="Tn93226" about="#Tn93226"/>
+<node id="Tn93221" about="#Tn93221"/>
+<node id="Tn93217" about="#Tn93217"/>
+<node id="Tn93227" about="#Tn93227"/>
+<node label="Poephila guttata" id="Tn93229" about="#Tn93229" otu="Tl29468"/>
+<node label="Poephila bichenovii" id="Tn93225" about="#Tn93225" otu="Tl29473"/>
+<node label="Poephila annulosa" id="Tn93233" about="#Tn93233" otu="Tl29469"/>
+<node id="Tn93220" about="#Tn93220"/>
+<node id="Tn93219" about="#Tn93219"/>
+<node label="Poephila personata" id="Tn93224" about="#Tn93224" otu="Tl29465"/>
+<node label="Poephila leucotis" id="Tn93223" about="#Tn93223" otu="Tl29472"/>
+<node id="Tn93218" about="#Tn93218"/>
+<node id="Tn93222" about="#Tn93222"/>
+<node label="Poephila hecki" id="Tn93230" about="#Tn93230" otu="Tl29466"/>
+<node label="Poephila acuticauda" id="Tn93228" about="#Tn93228" otu="Tl29467"/>
+<node label="Poephila atropygialis" id="Tn93231" about="#Tn93231" otu="Tl29471"/>
+<node label="Poephila cincta" id="Tn93232" about="#Tn93232" otu="Tl29470"/>
+<edge source="Tn93226" target="Tn93221" id="edge103894"/>
+<edge source="Tn93226" target="Tn93217" id="edge103907"/>
+<edge source="Tn93221" target="Tn93227" id="edge103895"/>
+<edge source="Tn93221" target="Tn93229" id="edge103906"/>
+<edge source="Tn93217" target="Tn93225" id="edge103908"/>
+<edge source="Tn93217" target="Tn93233" id="edge103909"/>
+<edge source="Tn93227" target="Tn93220" id="edge103896"/>
+<edge source="Tn93227" target="Tn93219" id="edge103899"/>
+<edge source="Tn93220" target="Tn93224" id="edge103897"/>
+<edge source="Tn93220" target="Tn93223" id="edge103898"/>
+<edge source="Tn93219" target="Tn93218" id="edge103900"/>
+<edge source="Tn93219" target="Tn93222" id="edge103903"/>
+<edge source="Tn93218" target="Tn93230" id="edge103901"/>
+<edge source="Tn93218" target="Tn93228" id="edge103902"/>
+<edge source="Tn93222" target="Tn93231" id="edge103904"/>
+<edge source="Tn93222" target="Tn93232" id="edge103905"/></tree></trees></nex:nexml>

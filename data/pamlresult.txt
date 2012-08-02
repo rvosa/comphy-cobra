@@ -1,0 +1,11 @@
+file	w non-venomous branches	w venomous branches
+data/pythonsequences//3ftx_dna_partial.pamlout	0.31195	1.54793
+data/pythonsequences//crisp_dna_full.pamlout	0.33940	0.99095
+data/pythonsequences//cystatin_dna_full.pamlout	0.22281	0.58458
+data/pythonsequences//hyaluronidase_dna_full.pamlout	0.16377	0.39254
+data/pythonsequences//kallikrein_dna_partial.pamlout	0.25258	0.90738
+data/pythonsequences//lao_dna_full.pamlout	0.20536	0.82465
+data/pythonsequences//lectin_dna_partial.pamlout	0.32379	0.70309
+data/pythonsequences//ngf_dna_full.pamlout	0.15961	0.69595
+data/pythonsequences//pla2_dna_full.pamlout	0.20427	1.26810
+data/pythonsequences//svmp_dna_partial.pamlout	0.10499	1.23555

@@ -1,0 +1,308 @@
+(
+(
+(
+(
+(
+(
+'Monodelphis domestica':4,
+(
+'Loxodonta africana':4,
+(
+(
+'Bos taurus':4,
+'Sus scrofa':4
+)Cetartiodactyla:4,
+'Equus caballus':4,
+(
+'Ailuropoda melanoleuca':4,
+'Canis lupus familiaris':4
+)Caniformia:4
+)Laurasiatheria:4,
+(
+(
+(
+'Cavia porcellus':4,
+(
+(
+'Rattus norvegicus':4,
+'Mastomys natalensis':4,
+'Mus musculus':4
+)Murinae:4,
+'Cricetulus griseus':4
+)Muroidea:4
+)Rodentia:4,
+'Oryctolagus cuniculus':4
+)Glires:4,
+(
+(
+(
+'Nomascus leucogenys':4,
+(
+'Pongo abelii':4,
+(
+'Homo sapiens':4,
+'Pan troglodytes':4
+)Homininae:4
+)Hominidae:4
+)Hominoidea:4,
+(
+'Macaca mulatta':4,
+'Macaca fascicularis':4
+)Macaca:4
+)Catarrhini:4,
+(
+'Saimiri sciureus':4,
+'Callithrix jacchus':4
+)Cebidae:4
+)Simiiformes:4
+)Euarchontoglires:4
+)Eutheria:4
+)Theria:4,
+(
+(
+'Taeniopygia guttata':4,
+(
+'Meleagris gallopavo':4,
+'Gallus gallus':4
+)Phasianidae:4
+)Neognathae:4,
+(
+(
+'Pogona barbata':4,
+'Anolis carolinensis':4
+)Iguania:4,
+(
+(
+'Python molurus':4,
+(
+(
+'Psammophis mossambicus':4,
+(
+'Liophis poecilogyrus':4,
+'Philodryas olfersii':4
+)Xenodontinae:4,
+'Leioheterodon madagascariensis':4,
+(
+'Telescopus dhara':4,
+'Trimorphodon biscutatus':4,
+'Thrasops jacksoni':4,
+'Dispholidus typus':4
+)Colubrinae:4,
+(
+'Enhydris polylepis':4,
+'Cerberus rynchops':4
+)Homalopsinae:4,
+(
+'Rhabdophis tigrinus tigrinus':4,
+'Thamnophis elegans':4
+)Natricinae:4
+)Colubridae:4,
+(
+'Azemiops feae':4,
+(
+'Bothropoides pauloensis':4,
+(
+'Protobothrops jerdonii':4,
+'Protobothrops mucrosquamatus':4,
+'Protobothrops elegans':4
+)Protobothrops:4,
+'Bothriechis schlegelii':4,
+'Cerrophidion godmani':4,
+'Viridovipera stejnegeri':4,
+'Deinagkistrodon acutus':4,
+(
+'Trimeresurus gracilis':4,
+'Trimeresurus flavoviridis':4,
+'Trimeresurus gramineus':4
+)Trimeresurus:4,
+'Cryptelytrops albolabris':4,
+(
+'Sistrurus catenatus edwardsi':4,
+'Sistrurus catenatus tergeminus':4
+)'Sistrurus catenatus':4,
+'Lachesis muta':4,
+(
+'Crotalus horridus':4,
+'Crotalus molossus molossus':4,
+'Crotalus oreganus helleri':4,
+'Crotalus viridis':4,
+(
+'Crotalus durissus durissus':4,
+'Crotalus durissus terrificus':4
+)'Crotalus durissus':4,
+'Crotalus atrox':4,
+'Crotalus adamanteus':4
+)Crotalus:4,
+(
+'Bothrops moojeni':4,
+'Bothrops jararacussu':4,
+'Bothrops jararaca':4,
+'Bothrops insularis':4,
+'Bothrops asper':4
+)Bothrops:4,
+'Calloselasma rhodostoma':4,
+(
+'Agkistrodon contortrix':4,
+'Agkistrodon piscivorus piscivorus':4
+)Agkistrodon:4,
+(
+'Gloydius blomhoffi':4,
+'Gloydius ussuriensis':4,
+'Gloydius halys':4
+)Gloydius:4
+)Crotalinae:4,
+(
+'Atheris nitschei':4,
+(
+'Echis ocellatus':4,
+'Echis carinatus sochureki':4,
+'Echis pyramidum leakeyi':4
+)Echis:4,
+(
+'Vipera nikolskii':4,
+'Vipera ursinii':4,
+'Vipera berus':4
+)Vipera:4,
+'Macrovipera lebetina':4,
+'Daboia russellii siamensis':4,
+'Cerastes cerastes':4,
+(
+'Bitis gabonica':4,
+'Bitis arietans':4
+)Bitis:4
+)Viperinae:4
+)Viperidae:4,
+(
+'Lapemis hardwickii':4,
+(
+'Aipysurus eydouxii':4,
+'Aipysurus laevis':4
+)Aipysurus:4
+)Hydrophiidae:4,
+(
+'Suta nigriceps':4,
+'Cryptophis nigrescens':4,
+(
+'Demansia vestigiata':4,
+'Hoplocephalus stephensii':4,
+'Tropidechis carinatus':4,
+'Micropechis ikaheka':4,
+'Drysdalia coronoides':4
+)Notechinae:4,
+(
+(
+'Austrelaps labialis':4,
+'Austrelaps superbus':4
+)Austrelaps:4,
+'Pseudonaja textilis':4,
+(
+'Pseudechis cf. australis HI-2009':4,
+'Pseudechis porphyriacus':4,
+'Pseudechis australis':4
+)Pseudechis:4,
+(
+'Oxyuranus microlepidotus':4,
+'Oxyuranus scutellatus scutellatus':4
+)Oxyuranus:4,
+'Notechis scutatus':4
+)Acanthophiinae:4,
+(
+'Walterinnesia aegyptia':4,
+'Ophiophagus hannah':4,
+(
+'Naja mossambica mossambica':4,
+'Naja sagittifera':4,
+'Naja naja':4,
+'Naja sputatrix':4,
+'Naja atra':4,
+'Naja kaouthia':4
+)Naja:4,
+(
+'Micrurus tener tener':4,
+'Micrurus altirostris':4,
+'Micrurus corallinus':4,
+'Micrurus fulvius':4
+)Micrurus:4
+)Elapinae:4,
+(
+'Laticauda semifasciata':4,
+'Laticauda laticaudata':4
+)Laticauda:4,
+(
+'Bungarus caeruleus':4,
+'Bungarus candidus':4,
+'Bungarus multicinctus multicinctus':4,
+'Bungarus flaviceps':4,
+'Bungarus fasciatus':4
+)Bungarus:4
+)Elapidae:4,
+'Atractaspis microlepidota andersoni':4
+)Colubroidea:4
+)Serpentes:4,
+(
+(
+'Celestus warreni':4,
+'Pseudopus apodus':4,
+'Gerrhonotus infernalis':4
+)Anguidae:4,
+(
+'Varanus scalaris':4,
+'Varanus panoptes':4,
+'Varanus glauerti':4,
+'Varanus gilleni':4,
+'Varanus tristis':4,
+'Varanus mitchelli':4,
+'Varanus mertensi':4,
+'Varanus indicus':4,
+'Varanus gouldii':4,
+'Varanus acanthurus':4,
+'Varanus komodoensis':4,
+'Varanus varius':4
+)Varanus:4,
+(
+'Heloderma suspectum cinctum':4,
+'Heloderma horridum':4
+)Heloderma:4
+)Anguimorpha:4
+)Scleroglossa:4
+)Squamata:4
+)Sauria:4
+)Amniota:4,
+(
+'Xenopus (Silurana) tropicalis':4,
+'Xenopus laevis':4
+)Xenopus:4
+)Tetrapoda:4,
+(
+(
+'Acipenser schrenckii':4,
+'Acipenser sinensis':4
+)Acipenser:4,
+(
+(
+(
+'Oreochromis niloticus':4,
+'Xiphophorus maculatus':4
+)Percomorpha:4,
+(
+'Spirinchus lanceolatus':4,
+(
+'Salmo salar':4,
+(
+'Oncorhynchus mykiss':4,
+'Oncorhynchus keta':4
+)Oncorhynchus:4
+)Salmoninae:4
+)Protacanthopterygii:4
+)Euteleostei:4,
+(
+'Cyprinus carpio':4,
+'Danio rerio':4
+)Cyprinidae:4
+)Clupeocephala:4
+)Actinopteri:4
+)Euteleostomi:4,
+'Lampetra fluviatilis':4
+)Vertebrata:4,
+'Schistosoma mansoni':4
+)Bilateria:4;
