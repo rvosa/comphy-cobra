@@ -91,6 +91,7 @@ On the third day of the perl track we will use the codeml program from the PAML 
 
 ===Software for today===
 * PAML
+* Data: `git checkout Day3`
 
 ===Session I, 9:00-10:30===
 In this session we will make input trees for PAML. The input trees are in Newick format with internal node labels, with one difference: for each node, we need to add to its name whether the node is within a venomous (#1) or a non-venomous (#0) clade. By default, Bio::Phylo will not write out names of internal nodes, unless we add '-nodelabels => 1' as an argument to the to_newick method. Whether or not a species is venomous can be found out by consulting the mapping file and Bio::Phylo::Cobra::TaxaMap, the last column in the mapping file is for venom. 
@@ -151,6 +152,7 @@ In the final day of the Perl track we will build a species tree for all the taxa
 
 ===Software for today===
 * Optional: paup
+* Data: `git checkout Day4`
 
 ===Session I, 9:00-10:30===
 [http://treebase.org TreeBASE] is a database that contains many published phylogenies. By combining the phylogenies that include species from our alignments we can build a 'supertree' for those species. As a first step we will write a client that fetches those trees using TreeBASE's web service API. We need to get the NCBI taxon IDs from the taxa mapping file and use those as search parameters ("tb.identifier.ncbi=$id") for taxon searches. We need to take care that web service are fragile, so we need to be able to survive errors and stop and restart our client.
