@@ -1,0 +1,172 @@
+=PhyloInformatic Workflow Design with Perl=
+
+==Introduction==
+In the perl track we will do one big analysis consisting of many, varied steps designed to visit all the common objects, file formats, and services used in phyloinformatics and implemented in BioPerl and [http://dx.doi.org/10.1093/sysbio/sys025 Bio::Phylo]. For a set of genes we will infer: 
+* gene trees
+* dN/dS ratios for two classes of branches
+* dN/dS ratios for codons
+* a species tree
+* gene duplications
+
+===Learning objectives===
+# Understand common file formats for phylogenetic data and sequences: newick, phylip, nexus, fasta, nexml, phyloxml
+# Understand phylogenetic data objects: trees, sequences, matrices/alignments, OTUs
+# Reading and writing phylogenetic data objects from/to file using open source toolkits
+# Traversing, filtering, merging data objects
+# Using tree inference and analysis software
+# Informatics: dealing with "large" amounts of data
+# Project management: how to organize your research
+
+===Schedule===
+The perl track consists of four full days. During these days there will be a lot of hands-on development of small scripts to automate the different steps in the overall project. At the end of each day we will have a tangible deliverable, outlined below.
+
+==Things to install==
+
+===git===
+* OSX: https://code.google.com/p/git-osx-installer/ 
+* Linux: 'sudo apt-get install git-core'
+
+===data===
+Once git is installed, you need to fetch the data we will work on:
+* `git clone https://github.com/rvosa/comphy-cobra.git`
+* `cd comphy-cobra`
+* Add comphy-cobra/lib to the PERL5LIB environment variable
+
+==Wednesday August 8th==
+===Data cleaning===
+On the first day of the Perl track we will clean up a number of alignments. The sequences are genes that produce venom in snakes, and their homologs in other animals. Many of the sequences were downloaded from genbank, while other ones resulted from sequencing projects at [http://naturalis.nl Naturalis]. We want to filter out those sequences that are too short (maybe there was a problem with primer design?), any duplicate sequences, and any codons in the alignment for which we have too little data. We also want to remove any sequences that look like they might be aligned incorrectly. 
+
+===Software for today===
+* Perl with [https://github.com/rvosa/bio-phylo Bio::Phylo] and [https://github.com/bioperl/bioperl-live BioPerl].
+* Data: `git checkout Day1`
+
+===Session I, 9:00-10:30===
+In the original data we were sent there were some duplicate sequences, with the same FASTA definition line (I don't know why, probably a mistake). We need to filter those out, so we will write a simple script that does this.
+
+===Session II, 10:45-12:15===
+We will write a script that filters out frame shifts in the alignments. We will do this by comparing protein translations we make from the sequences with the protein translations that GenBank has stored. We therefore need to know how to:
+* Get the sequence identifier (GI) for the sequence using Bio::Phylo::Cobra::TaxaMap
+* Translate to protein using Bio::Tools::CodonTable
+* Fetch GenBank data using Bio::DB::GenBank
+
+===Session III, 13:45-15:15===
+We will filter out any "sparse codons", by which we mean any sets of three columns 
+that for which we have data in fewer than 50% of the rows in the alignment. We need to know how to read and write alignment formats, and how to navigate alignments and modify them using Bio::Phylo::Matrices::Matrix.
+
+===Session IV, 15:30-17:00===
+There might be data that we don't need, especially because a lot of it has been mined from GenBank: we don't know if those are paralogs or orthologs (ideally we only have one ortholog for those species) and in any case some of them are just short fragments. We will write a script that - within each species - filters out the short sequences. We need to know how to:
+* Get the species identifier (NCBI taxon ID) for the sequence (Bio::Phylo::Cobra::TaxaMap)
+* Remove rows from an alignment using Bio::Phylo::Matrices::Matrix
+
+==Thursday August 9th==
+
+===Tree inference===
+On the second day we will infer gene trees, first by running an MCMC analysis (to get a posterior distribution of trees), then by running a maximum likelihood analysis. From the maximum likelihood trees we will prune any monophyletic groups of tips within the same species, for species that we're not interested in (i.e. we will throw out some data). There will be quite a lot of data conversion between fasta, newick, nexus, phylip and phyloxml. The end result will be gene trees which we can view in Archaeopteryx.
+
+===Software for today===
+* MrBayes
+* PHYML
+* data: `git checkout Day2`
+* optional: archaeopteryx
+
+===Session I, 9:00-10:30===
+For our MCMC analysis we first need to convert our FASTA alignments to NEXUS, which is the input format for mrbayes. However, there are some things we need to watch out for:
+* mrbayes has its own version of NEXUS (see Bio::Phylo::Matrices::Matrix::to_nexus)
+* map sequence labels to short names (see Bio::Phylo::Cobra::TaxaMap)
+* append the command block in data/bayesian/commandblock.mb
+
+===Session II, 10:45-12:15===
+For the maximum likelihood analysis we need to convert our FASTA alignments to PHYLIP format (the input format for PHYML), and the consensus trees from mrbayes to Newick so that we can use them as starting trees.
+
+===Session III, 13:45-15:15===
+For the species that we are not especially interested in (i.e. all species other than Anolis carolinensis and Ophiophagus hannah) we want to prune all monophyletic clades for each species down to the tip nearest to the root of that clade. For this we need to traverse the tree and assemble for each internal node the set of species that descend from it. If that set consists of a single species but multiple tips, then some of those tips might be candidates for deletion. During the traversal we also need to keep track of how far each of those tips are from their ancestors, so that we can prune away all the tips that are farthest away. This exercise is hard.
+
+===Session IV, 15:30-17:00===
+Finally we will convert our gene trees to phyloxml so that we can view them in archaeopteryx. We will use phyloxml's annotation system to add two annotations to the tips of our trees: an 8-character species code (for gene tree / species tree reconciliation, later on), and the scientific binomials from the NCBI taxonomy (for pretty display).
+
+==Friday August 10th==
+
+===Analysis of dN/dS ratios===
+On the third day of the perl track we will use the codeml program from the PAML package to test whether clades of venomous taxa in our gene trees have a different dN/dS ratio than those of non-venomous taxa.
+
+===Software for today===
+* PAML
+
+===Session I, 9:00-10:30===
+In this session we will make input trees for PAML. The input trees are in Newick format with internal node labels, with one difference: for each node, we need to add to its name whether the node is within a venomous (#1) or a non-venomous (#0) clade. By default, Bio::Phylo will not write out names of internal nodes, unless we add '-nodelabels => 1' as an argument to the to_newick method. Whether or not a species is venomous can be found out by consulting the mapping file and Bio::Phylo::Cobra::TaxaMap, the last column in the mapping file is for venom. 
+
+===Session II, 10:45-12:15===
+Next we will create input alignments for PAML. The alignments are supposed to be in PHYLIP format, but PAML is especially choosy about the syntax so we need to create the output ourselves. Specifically:
+* the number of characters should be a multiple of 3 (PAML wants codons, no trailing data)
+* the rows should be the same number as there are tips in our trees
+
+===Session III, 13:45-15:15===
+We also need to create a control file that points PAML to the location of our alignment ($seqfile), tree file ($treefile) and the output file we want it to produce ($outfile). Here is a template you can use:
+<pre>
+      seqfile = $seqfile
+     treefile = $treefile
+      outfile = $outfile
+
+        noisy = 0   * 0,1,2,3,9: how much rubbish on the screen
+      verbose = 1   * 1: detailed output, 0: concise output
+      runmode = 0   * 0: user tree;  1: semi-automatic;  2: automatic
+                    * 3: StepwiseAddition; (4,5):PerturbationNNI 
+
+      seqtype = 1   * 1:codons; 2:AAs; 3:codons-->AAs
+    CodonFreq = 2   * 0:1/61 each, 1:F1X4, 2:F3X4, 3:codon table
+        clock = 0   * 0: no clock, unrooted tree, 1: clock, rooted tree
+        model = 2
+                    * models for codons:
+                        * 0:one, 1:b, 2:2 or more dN/dS ratios for branches
+
+      NSsites = 0   * dN/dS among sites. 0:no variation, 1:neutral, 2:positive
+        icode = 0   * 0:standard genetic code; 1:mammalian mt; 2-10:see below
+
+    fix_kappa = 0   * 1: kappa fixed, 0: kappa to be estimated
+        kappa = 2   * initial or fixed kappa
+    fix_omega = 0   * 1: omega or omega_1 fixed, 0: estimate 
+        omega = 2   * initial or fixed omega, for codons or codon-transltd AAs
+
+    fix_alpha = 1   * 0: estimate gamma shape parameter; 1: fix it at alpha
+        alpha = .0  * initial or fixed alpha, 0:infinity (constant rate)
+       Malpha = 0   * different alphas for genes
+        ncatG = 4   * # of categories in the dG or AdG models of rates
+
+        getSE = 1   * 0: don't want them, 1: want S.E.s of estimates
+ RateAncestor = 0   * (1/0): rates (alpha>0) or ancestral states (alpha=0)
+       method = 0   * 0: simultaneous; 1: one branch at a time
+
+
+* Specifications for duplicating results for the small data set in table 1
+* of Yang (1998 MBE 15:568-573).
+* see the tree file lysozyme.trees for specification of node (branch) labels
+</pre>
+
+===Session IV, 15:30-17:00===
+PAML produces a lot of output, but we are really only interested in the reconstructed dN/dS ratios for the two categories of branches. For this we need to parse the line that begins with `w (dN/dS) for branches:`, capture the two numbers that follow and print those out.
+
+==Saturday August 11th==
+===Gene tree / species tree reconciliation===
+In the final day of the Perl track we will build a species tree for all the taxa in our data set and use that tree to reconstruct duplications in our gene trees.
+
+===Software for today===
+* Optional: paup
+
+===Session I, 9:00-10:30===
+[http://treebase.org TreeBASE] is a database that contains many published phylogenies. By combining the phylogenies that include species from our alignments we can build a 'supertree' for those species. As a first step we will write a client that fetches those trees using TreeBASE's web service API. We need to get the NCBI taxon IDs from the taxa mapping file and use those as search parameters ("tb.identifier.ncbi=$id") for taxon searches. We need to take care that web service are fragile, so we need to be able to survive errors and stop and restart our client.
+
+===Session II, 10:45-12:15===
+Here we will run the supertree analysis. For this we need to:
+* Convert our TreeBASE trees and the NCBI taxonomy tree for our species to MRP matrices
+* Concatenate the MRP matrices into one big matrix in NEXUS format
+* Run a parsimony search
+* Build a consensus over the resulting equally parsimonious trees
+* The consensus needs to be in phyloxml format, with species code annotations
+
+===Session III, 13:45-15:15===
+Archaeopteryx can reconstruct speciation and duplication events, both visually and on the command line. To be able to reproduce all our analysis steps, we will do this on the command line, but we will also look at the graphical interface.
+
+===Session IV, 15:30-17:00===
+We can also use the hyphy package on the [http://www.datamonkey.org/ datamonkey] cluster to analyze dN/dS ratios in our alignments (e.g. a quick scan using the FUBAR method, or a more robust analysis using the MEME method). For this we need to write a script that combines each gene trees with its alignment in one NEXUS file.
+
+[[Main_Page|Return]]
